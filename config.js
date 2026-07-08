@@ -1,105 +1,82 @@
 /* ============================================================
-   CONFIG.JS
+   CONFIG.JS — Grúas Esmar
+   PRIMER ESBORRANY — colors i textos pendents de confirmar
+   amb la web original un cop hi tinguem accés complet
    ============================================================ */
 
 const CONFIG = {
 
     // 1. NEGOCI
-    NOM:            "AMR MotorBike",
-    LOGO:           "logo/logoAMR.png",
-    LOGO_T:         "logo/logoAMRtrans.png",
-    SLOGAN:         "Especialistas en motos. Sabadell.",
-    TELEFON:        "93 000 00 00",                                          TELEFONLBL:   "Teléfono", TL: "📞",
-    MOBIL:          "600 000 000",
-    WHATSAPP:       "https://wa.me/34600000000",                             WHATSAPPLBL:" 💬 Escribenos por WhatsApp",
-    EMAIL:          "amrmotorbike@altervector.com",                          EMAILLBL:"e-Mail",        EM: "✉️",
-    ADRECA:         "Calle de la Mecánica, 42, 08220 Sabadell, Barcelona",   ADRECALBL: "Dirección",   AD: "📍",
-    INSTAGRAM:      "https://www.instagram.com/amrmotorbike",
+    NOM:            "Grúas Esmar",
+    LOGO:           "logo/logoEsmar.png",       // ← pendent: recuperar logo real
+    LOGO_T:         "logo/logoGEtrans.png",  // ← pendent: recuperar logo real
+    SLOGAN:         "Asistencia en carretera 24h en el Vallés Occidental",
+    TELEFON:        "93 780 06 81",     TELEFONLBL: "Teléfono", TL: "📞",
+    MOBIL:          "639 758 989",
+    WHATSAPP:       "https://wa.me/34639758989", WHATSAPPLBL: "💬 Escríbenos por WhatsApp",
+    EMAIL:          "info@gruasesmar.com",       EMAILLBL: "e-Mail", EM: "✉️",
+    ADRECA:         "Carrer de Colom, 453, Nave D51, 08223 Terrassa, Barcelona", ADRECALBL: "Dirección", AD: "📍",
+    INSTAGRAM:      "https://www.instagram.com/gruas_esmar",
     FACEBOOK:       "",
     EMAIL_SUPORT:   "suport@altervector.com",
 
     // 2. RUTES
-    REPO_URL:       "https://altervector.github.io/amrmotorbike/",
+    REPO_URL:       "https://altervector.github.io/gruasesmar/",
     BASE_URL:       "./",
-    BASE_WORKER:    "",
+    BASE_WORKER:    "",   // ← pendent: crear Worker per als 2 formularis
     URL_OFICIAL:    "",
     ASSETS:         "https://avsets.pages.dev/",
-    URL_MAPS:       "https://www.google.com/maps/search/?api=1&query=Taller+AMR+Sabadell",
-    URL_RESSENYES:  "https://www.google.com/maps/search/?api=1&query=Taller+AMR+Sabadell",
+    URL_MAPS:       "https://www.google.com/maps/search/?api=1&query=Talleres+Esmar+Terrassa",
+    URL_RESSENYES:  "https://www.google.com/maps/search/?api=1&query=Talleres+Esmar+Terrassa",
 
-    // 3. IMATGES 
-    BACKGROUND:      "", // ← canviar en el css .html{}
-    BLOC_HERO:       "images/amrmotorbike/hero-amrmotorbike.jpg", 
-    QR:              "qr/qr-amrmotorbike.png",
-    //-------------------------------------------------------------------------------------------------------------------------
+    // 3. IMATGES — pendents de baixar de la web original i pujar a avsets
+    BLOC_HERO:      "images/gruasesmar/hero-gruasesmar.jpg", // ← pendent
+    QR:             "qr/qr-gruasesmar.png",                  // ← pendent generar
 
-
-
-    // 4. TEXTOS---------------------------------------------------------------------------------------------------------------
+    // 4. NAVBAR
     NAV_NOS:        "Nosotros",
     NAV_SER:        "Servicios",
-    NAV_PXQ:        "Porqué AMR?",
     NAV_CON:        "Contacto",
 
-    HERO_BOTO_PRI:      "📞 Llámanos",
-    HERO_BOTO_SEC:      "Nuestros servicios",
+    HERO_BOTO_PRI:  "📞 Pedir grúa",
+    HERO_BOTO_SEC:  "Nuestros servicios",
 
-    ANYS_EXPERIENCIA:   "+20",    ANYS_EXPERIENCIA2:   "Años de experiéncia",
-    MOTOS_REPARADES:    "+2.000", MOTOS_REPARADES2:    "Motos reparadas",
-    CLIENTS:            "+1.200", CLIENTS2:            "Clientes satisfechos",
-    ESTRELLES:          "5",      ESTRELLES2:          "ValoracióN Google",
+    // 5. QUI SOM (fusió de Conócenos + Aseguradoras, que a l'original es repetien)
+    QUI_SOM:        "Quiénes somos...",
+    QUI_SOM_TIT:    "Más de 30 años de experiencia en asistencia en carretera",
+    QUI_DESC:       "Talleres Esmar, S.L. (Grúas Esmar) es una empresa especializada en asistencia en carretera con más de 30 años de experiencia en el sector. Toda nuestra flota está permanentemente comunicada con nuestra central de operaciones mediante GPS, para responder con rapidez a cualquier solicitud. Trabajamos también con aseguradoras, ofreciendo un servicio profesional adaptado a sus necesidades.",
 
-    QUI_SOM:            "Quiénes somos...",
-    QUI_SOM_TIT:        "Pasión por las motos desde hace más de 20 años",
-    QUI_DESC:           "En el Taller AMR MotorBike somos especialistas en mantenimiento, reparación y restauración de motocicletas. Más de 20 años en Sabadell cuidando tu moto con la misma pasión con la que la conduces. Trabajamos con todas las marcas y modelos, desde scooters hasta motos de gran cilindrada.",
-    //+hero boto pri
-    //-------------------------------------------------------------------------------------------------------------------------
+    // 6. SERVEIS — un sol bloc amb targetes (abans eren 6 pàgines separades)
+    // Turismos i Motos: contingut real de la web original.
+    // La resta: la web original tenia text de mostra (lorem ipsum) —
+    // pendent que la clienta doni el text definitiu.
+    QUE_FEM:        "Lo que hacemos",
+    QUE_FEM_SRV:    "Nuestros servicios",
 
-
-
-    // 5. SERVEIS (graella)
-    QUE_FEM:            "Lo que hacemos",
-    QUE_FEM_SRV:        "Nuestros servicios",
-
-    SERVEIS: [
-        { ico: "🔧", titol: "Mantenimiento general",    desc: "Cambio de aceite y filtro, revisión de niveles, limpieza de carburador y preparación para ITV." },
-        { ico: "🛑", titol: "Frenos",                  desc: "Cambio de pastillas y zapatas, rectificación de discos y purga completa del sistema." },
-        { ico: "⛓️", titol: "Transmisión i cadena",   desc: "Ajuste y lubricación de cadena, cambio del kit de arrastre y revisión de la caja de cambios." },
-        { ico: "⚡", titol: "Sistema eléctrico",       desc: "Revisión y cambio de batería, diagnóstico con escáner ECU y reparación de luces y conexiones." },
-        { ico: "🏍️", titol: "Suspensión i dirección",   desc: "Servicio de suspensión delantera, ajuste de dirección y revisión de rodamientos y amortiguadores." },
-        { ico: "💨", titol: "Sistema de escape",   desc: "Revisión de fugas, reparación e instalación de escapes deportivos o personalizados." },
-        { ico: "🔘", titol: "Pneumáticos",             desc: "Cambio de llantas, equilibrado, alineación y reparación de pinchazos." },
-        { ico: "⚙️", titol: "Motor",                  desc: "Afinación general, reparación de cilindro, pistón, válvulas y ajuste de distribución." },
-        { ico: "🎨", titol: "Personalización",        desc: "Instalación de accesorios, cambios estéticos con vinilos y carenados, y modificaciones." },
+ASSIST_CARRETERA: [
+        { titol: "Turismos", desc: "Ofrecemos un servicio integral de asistencia y transporte para toda clase de vehículos en toda Cataluña.", url: "servicios/turismos.html" },
+        { titol: "Motocicletas", desc: "Trasladamos todo tipo de motocicletas. Portamotos abatible, remolque innovador con sistema de carga a nivel de suelo.", url: "servicios/motocicletas.html" },
+        { titol: "Vehículos pesados", desc: "Cuando tienes un problema con tu furgoneta o camión ligero, lo único que quieres es resolverlo lo antes posible.", url: "servicios/vehiculos-pesados.html" },
     ],
-    //-------------------------------------------------------------------------------------------------------------------------
-
-
-
-    // 6. PERQUE--------------------------------------------------------------------------------------------------------------
-    PXQ:        "Porqué AMR MotorBike ?",
-    PXQ_DESC:   "El taller que tu moto se merece",
-
-    PXQ_BLOC1_TIT:          "Diagnóstico rápido",                    PXQ_BLOC1_emo:"⚡",
-    PXQ_BLOC1_DESC:         "Detectamos el problema en el mismo día y te informamos antes de tocar nada.",
-
-    PXQ_BLOC2_TIT:          "Recanvios de calidad",                  PXQ_BLOC2_emo:"🔩",
-    PXQ_BLOC2_DESC:         "Trabajamos con piezas originales o equivalentes homologadas, nunca piezas dudosas.",
-
-    PXQ_BLOC3_TIT:          "Moto de cortesía",                      PXQ_BLOC3_emo:"🏍️",
-    PXQ_BLOC3_DESC:         "Si la reparación se alarga, te dejamos moto para seguir rodando sin interrupciones.",
-    //-------------------------------------------------------------------------------------------------------------------------
-
-
-    // 7. ON SOM-----------------------------------------------------------------------------------------------------------   
-    ON_SOM:            "Donde estamos...",
-    ON_SOM_TIT:        "Ven a vernos",
+    ALTRES_SERVEIS: [
+        { titol: "Cambios de baterías a domicilio", desc: "Cambio de batería a domicilio o estés donde estés. No te supondrá ningún inconveniente.", url: "servicios/baterias.html" },
+        { titol: "Reparación de neumáticos in situ", desc: "Reparación temporal de pinchazos para que puedas seguir con tu camino.", url: "servicios/neumaticos.html" },
+        { titol: "Servicio ITV", desc: "Con nuestro servicio de ITV a domicilio, te pasamos la ITV sin que salgas de casa.", url: "servicios/itv.html" },
+    ],
     
-    HORA_0:         "Horario",   HR: "🕐",
-    HORA_1:         "Lunes a Jueves: 09:00 – 13:00 | 15:00 – 19:00",
-    HORA_2:         "Viernes: 09:00 – 13:00 | 15:00 – 18:00",
-    HORA_3:         "Sábado y Domingo: Cerrado",
-    //-------------------------------------------------------------------------------------------------------------------------
+    FLOTA_TIT:      "Nuestra flota",
+    FLOTA_DESC:     "Disponemos de una flota de grúas equipadas con la última tecnología, todas ellas comunicadas por GPS con nuestra central para responder con rapidez. TEXT PENDENT — ampliar amb detalls reals de la flota (tipus de grues, quantitat...).",
+    
+    
+    // 7. INSTAL·LACIONS
+    INSTAL_TIT:     "Nuestras instalaciones",
+    INSTAL_DESC:    "Instalaciones de 800m² dotadas con la tecnología más avanzada en videovigilancia (CCTV), zona de taller para el mantenimiento de la flota, oficinas y sala de espera para clientes.",
+
+    // 8. CONTACTE
+    ON_SOM:         "Dónde estamos...",
+    ON_SOM_TIT:     "Ven a vernos",
+    HORA_0:         "Horario", HR: "🕐",
+    HORA_1:         "Asistencia 24 horas, los 365 días del año",
 
     // 6. SEGURETAT
     SITIOS_SEGUROS: ["altervector.com", "pages.dev", "altervector.github.io", "localhost", "127.0.0.1"],
