@@ -78,12 +78,12 @@
 
                 <!-- SERVEIS — abans eren 6 pàgines separades, ara un sol bloc -->
                 <!-- SERVEIS — dos blocs, com a l'original -->
-                <section class="seccio" id="serveis">
+                <section class="seccio seccio-serveis" id="serveis" style="background-image:url('${CONFIG.ASSETS}${CONFIG.FONS_SERVEIS}');">
                     <h2 class="seccio-titol">Asistencia en Carretera 24h 365 días</h2>
                     <p class="seccio-text">Realizamos servicio en todo el Vallés Occidental y traslado de vehículos a toda Cataluña.</p>
                     <div class="serveis-grid">
                         ${CONFIG.ASSIST_CARRETERA.map(s => `
-                            <div class="servei-card">
+                             <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">
                                 <div class="servei-titol">${s.titol}</div>
                                 <div class="servei-desc">${s.desc}</div>
                                 <a href="${s.url}" class="servei-link">Leer más</a>
@@ -95,7 +95,7 @@
                     <p class="seccio-text">Especialistas en reparación in situ, economizando tiempo, trabajo y riesgos.</p>
                     <div class="serveis-grid">
                         ${CONFIG.ALTRES_SERVEIS.map(s => `
-                            <div class="servei-card">
+                             <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">
                                 <div class="servei-titol">${s.titol}</div>
                                 <div class="servei-desc">${s.desc}</div>
                                 <a href="${s.url}" class="servei-link">Leer más</a>

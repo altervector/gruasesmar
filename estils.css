@@ -149,6 +149,39 @@ a:hover { text-decoration: underline; }
 /* ─── SECCIONS ────────────────────────────────────────────── */
 .seccio { padding: 56px 24px; scroll-margin-top: 70px; }
 
+
+
+.seccio-serveis {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.seccio-serveis::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 0;
+}
+
+.seccio-serveis > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .seccio-eyebrow {
     font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;
     color: var(--vermell); margin-bottom: 10px;
@@ -175,6 +208,37 @@ a:hover { text-decoration: underline; }
 .servei-ico { font-size: 1.5rem; margin-bottom: 8px; }
 .servei-titol { font-size: 0.95rem; font-weight: 700; color: var(--gris-fosc); margin-bottom: 6px; }
 .servei-desc { font-size: 13px; color: var(--gris); line-height: 1.6; }
+
+
+
+
+
+.servei-card[style*="background-image"] {
+    position: relative;
+    color: var(--blanc);
+    overflow: hidden;
+}
+
+.servei-card[style*="background-image"]::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.75) 20%, rgba(0,0,0,0.15) 100%);
+    z-index: 0;
+}
+
+.servei-card[style*="background-image"] .servei-titol,
+.servei-card[style*="background-image"] .servei-desc,
+.servei-card[style*="background-image"] .servei-link {
+    position: relative;
+    z-index: 1;
+    color: var(--blanc);
+}
+
+
+
+
+
 
 /* ─── CONTACTE ────────────────────────────────────────────── */
 .contacte-grid { display: grid; grid-template-columns: 1fr; gap: 20px; margin-top: 24px; margin-bottom: 32px; }
