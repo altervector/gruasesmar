@@ -111,7 +111,7 @@
                     <p class="seccio-eyebrow">${CONFIG.QUI_SOM}</p>
                     <h2 class="seccio-titol">Conócenos</h2>
                     <div class="serveis-grid">
-                        <div class="servei-card" onclick="obrirModalInfo('quisom')" style="cursor:pointer;">
+                        <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.QUI_SOM_IMG}'); background-size:cover; background-position:center;" onclick="obrirModalInfo('quisom')">
                             <div class="servei-titol">${CONFIG.QUI_SOM_TIT}</div>
                             <div class="servei-desc">${CONFIG.QUI_DESC.slice(0,90)}... <b>Ver más</b></div>
                         </div>

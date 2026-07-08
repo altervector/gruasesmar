@@ -46,6 +46,16 @@ const CONFIG = {
     QUI_SOM:        "Quiénes somos...",
     QUI_SOM_TIT:    "Más de 30 años de experiencia en asistencia en carretera",
     QUI_DESC:       "Talleres Esmar, S.L. (Grúas Esmar) es una empresa especializada en asistencia en carretera con más de 30 años de experiencia en el sector. Toda nuestra flota está permanentemente comunicada con nuestra central de operaciones mediante GPS, para responder con rapidez a cualquier solicitud. Trabajamos también con aseguradoras, ofreciendo un servicio profesional adaptado a sus necesidades.",
+    QUI_SOM_IMG:    "images/gruasesmar/conocenos.jpg",
+
+    FLOTA_TIT:      "Nuestra flota",
+    FLOTA_DESC:     "Disponemos de una flota de grúas equipadas con la última tecnología, todas ellas comunicadas por GPS con nuestra central para responder con rapidez. TEXT PENDENT — ampliar amb detalls reals de la flota (tipus de grues, quantitat...).",
+    FLOTA_IMG:      "images/gruasesmar/flota.jpg",
+    
+    INSTAL_TIT:     "Nuestras instalaciones",
+    INSTAL_DESC:    "Instalaciones de 800m² dotadas con la tecnología más avanzada en videovigilancia (CCTV), zona de taller para el mantenimiento de la flota, oficinas y sala de espera para clientes.",
+    INSTAL_IMG:     "images/gruasesmar/instalaciones.jpg",
+
 
     // 6. SERVEIS — un sol bloc amb targetes (abans eren 6 pàgines separades)
     // Turismos i Motos: contingut real de la web original.
@@ -65,13 +75,8 @@ const CONFIG = {
         { titol: "Servicio ITV", desc: "Con nuestro servicio de ITV a domicilio, te pasamos la ITV sin que salgas de casa.", url: "servicios/itv.html", img: "images/gruasesmar/serviitv.jpg" },
     ],
     
-    FLOTA_TIT:      "Nuestra flota",
-    FLOTA_DESC:     "Disponemos de una flota de grúas equipadas con la última tecnología, todas ellas comunicadas por GPS con nuestra central para responder con rapidez. TEXT PENDENT — ampliar amb detalls reals de la flota (tipus de grues, quantitat...).",
-    
-    
-    // 7. INSTAL·LACIONS
-    INSTAL_TIT:     "Nuestras instalaciones",
-    INSTAL_DESC:    "Instalaciones de 800m² dotadas con la tecnología más avanzada en videovigilancia (CCTV), zona de taller para el mantenimiento de la flota, oficinas y sala de espera para clientes.",
+
+
 
     // 8. CONTACTE
     ON_SOM:         "Dónde estamos...",
