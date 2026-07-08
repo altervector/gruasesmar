@@ -75,7 +75,10 @@ const CONFIG = {
         { titol: "Servicio ITV", desc: "Con nuestro servicio de ITV a domicilio, te pasamos la ITV sin que salgas de casa.", url: "servicios/itv.html", img: "images/gruasesmar/serviitv.jpg" },
     ],
     
-
+    ASSEG_TIT:      "Trabajamos con aseguradoras",
+    ASSEG_DESC:     "Ofrecemos nuestros servicios para su compañía",
+    ASSEG_BOTO:     "Contacta con nosotros",
+    ASSEG_IMG:      "images/gruasesmar/aseguradoras.jpg",
 
 
     // 8. CONTACTE

@@ -236,7 +236,39 @@ a:hover { text-decoration: underline; }
 }
 
 
+.mini-hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--radi);
+    overflow: hidden;
+    padding: 60px 24px;
+    text-align: center;
+    margin-top: 24px;
+}
 
+.mini-hero-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(20, 60, 120, 0.65);
+    z-index: 0;
+}
+
+.mini-hero-contingut { position: relative; z-index: 1; }
+
+.mini-hero-titol { color: var(--blanc); font-size: 1.8rem; margin-bottom: 10px; }
+.mini-hero-desc { color: #e5e5e5; font-size: 1rem; margin-bottom: 20px; }
+
+.mini-hero-boto {
+    display: inline-block;
+    border: 1.5px solid var(--blanc);
+    color: var(--blanc);
+    padding: 12px 26px;
+    border-radius: var(--radi);
+    font-size: 14px;
+    transition: background 0.2s;
+}
+.mini-hero-boto:hover { background: rgba(255,255,255,0.15); text-decoration: none; }
 
 
 

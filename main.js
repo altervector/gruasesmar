@@ -126,6 +126,15 @@
                     </div>
                 </section>
 
+                <div class="mini-hero" style="background-image:url('${CONFIG.ASSETS}${CONFIG.ASSEG_IMG}');">
+                        <div class="mini-hero-overlay"></div>
+                        <div class="mini-hero-contingut">
+                            <h2 class="mini-hero-titol">${CONFIG.ASSEG_TIT}</h2>
+                            <p class="mini-hero-desc">${CONFIG.ASSEG_DESC}</p>
+                            <a href="#contacte" class="mini-hero-boto">${CONFIG.ASSEG_BOTO}</a>
+                        </div>
+                    </div>
+
                 <hr class="separador">
 
                 <!-- CONTACTE -->
