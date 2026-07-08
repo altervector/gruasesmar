@@ -347,6 +347,29 @@ a:hover { text-decoration: underline; }
 .footer-xarxes a:hover { color: var(--vermell); text-decoration: none; }
 .icona-app { width: 18px; height: auto; vertical-align: middle; margin-right: 6px; display: inline-block; }
 
+
+.footer-legal {
+    background: rgba(255,255,255,0.06);
+    padding: 14px 20px;
+    margin: 20px -24px 0 -24px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-legal a {
+    color: #ccc;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.footer-legal a:hover {
+    color: var(--vermell);
+    text-decoration: none;
+}
+
+
+
 .footer-poweredby {
     margin-top: 24px; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
     color: rgba(255,255,255,0.25); border-top: 1px solid rgba(255,255,255,0.08); padding-top: 16px;
