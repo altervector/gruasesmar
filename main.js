@@ -188,14 +188,14 @@
                         </div>
                     </div>
 
-                    <!-- FORMULARI CONTACTE — pendent: connectar amb Worker propi -->
+                    <!-- FORMULARI CONTACTE — pendent: connectar amb Worker propi 
                     <form class="form-contacte" id="form-contacte">
                         <input type="text" name="nom" placeholder="Nombre" required>
                         <input type="email" name="email" placeholder="Email" required>
                         <input type="tel" name="telefon" placeholder="Teléfono">
                         <textarea name="missatge" placeholder="Mensaje" required></textarea>
                         <button type="submit" class="hero-boto-principal btn-balla">Enviar</button>
-                    </form>
+                    </form>-->
 
                     <a href="${CONFIG.WHATSAPP}" target="_blank" class="boto-whatsapp btn-balla">${CONFIG.WHATSAPPLBL}</a>
                 </section>

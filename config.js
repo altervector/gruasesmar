@@ -84,8 +84,8 @@ const CONFIG = {
     STATS_BOTO:     "PEDIR GRÚA AHORA",
 
     // 8. CONTACTE
-    ON_SOM:         "Dónde estamos...",
-    ON_SOM_TIT:     "Ven a vernos",
+    ON_SOM:         "",
+    ON_SOM_TIT:     "Dónde estamos...",   //Ven a vernos
     HORA_0:         "Horario", HR: "🕐",
     HORA_1:         "Asistencia 24 horas, los 365 días del año",
 
