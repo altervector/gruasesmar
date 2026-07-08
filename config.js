@@ -46,7 +46,7 @@ const CONFIG = {
     QUI_SOM:        "Quiénes somos...",
     QUI_SOM_TIT:    "Más de 30 años de experiencia en asistencia en carretera",
     QUI_DESC:       "Talleres Esmar, S.L. (Grúas Esmar) es una empresa especializada en asistencia en carretera con más de 30 años de experiencia en el sector. Toda nuestra flota está permanentemente comunicada con nuestra central de operaciones mediante GPS, para responder con rapidez a cualquier solicitud. Trabajamos también con aseguradoras, ofreciendo un servicio profesional adaptado a sus necesidades.",
-    QUI_SOM_IMG:    "images/gruasesmar/conocenos.jpg",
+    QUI_SOM_IMG:    "images/gruasesmar/conocenos.png",
 
     FLOTA_TIT:      "Nuestra flota",
     FLOTA_DESC:     "Disponemos de una flota de grúas equipadas con la última tecnología, todas ellas comunicadas por GPS con nuestra central para responder con rapidez. TEXT PENDENT — ampliar amb detalls reals de la flota (tipus de grues, quantitat...).",
