@@ -115,11 +115,11 @@
                             <div class="servei-titol">${CONFIG.QUI_SOM_TIT}</div>
                             <div class="servei-desc">${CONFIG.QUI_DESC.slice(0,90)}... <b>Ver más</b></div>
                         </div>
-                        <div class="servei-card" onclick="obrirModalInfo('flota')" style="cursor:pointer;">
+                       <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.FLOTA_IMG}'); background-size:cover; background-position:center;" onclick="obrirModalInfo('flota')">
                             <div class="servei-titol">${CONFIG.FLOTA_TIT}</div>
                             <div class="servei-desc">${CONFIG.FLOTA_DESC.slice(0,90)}... <b>Ver más</b></div>
                         </div>
-                        <div class="servei-card" onclick="obrirModalInfo('instalacions')" style="cursor:pointer;">
+                        <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.INSTAL_IMG}'); background-size:cover; background-position:center;" onclick="obrirModalInfo('instalacions')">
                             <div class="servei-titol">${CONFIG.INSTAL_TIT}</div>
                             <div class="servei-desc">${CONFIG.INSTAL_DESC.slice(0,90)}... <b>Ver más</b></div>
                         </div>

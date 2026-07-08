@@ -147,7 +147,7 @@ a:hover { text-decoration: underline; }
 .hero-boto-secundari:hover { border-color: var(--vermell); color: var(--vermell); text-decoration: none; }
 
 /* ─── SECCIONS ────────────────────────────────────────────── */
-.seccio { padding: 56px 24px; scroll-margin-top: 70px; }
+.seccio {  top: 20px;   padding: 56px 24px; scroll-margin-top: 70px; }
 
 
 
