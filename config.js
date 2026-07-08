@@ -80,6 +80,8 @@ const CONFIG = {
     ASSEG_BOTO:     "Contacta con nosotros",
     ASSEG_IMG:      "images/gruasesmar/aseguradoras.jpg",
 
+    STATS_IMG:      "images/gruasesmar/stats-fons.jpg",
+    STATS_BOTO:     "PEDIR GRÚA AHORA",
 
     // 8. CONTACTE
     ON_SOM:         "Dónde estamos...",

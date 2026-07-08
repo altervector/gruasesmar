@@ -135,6 +135,19 @@
                         </div>
                     </div>
 
+                    <div class="franja-stats" style="background-image:url('${CONFIG.ASSETS}${CONFIG.STATS_IMG}');">
+                    <div class="franja-stats-overlay"></div>
+                    <div class="stat-item">
+                        <div class="stat-numero">24</div>
+                        <div class="stat-label">horas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-numero">365</div>
+                        <div class="stat-label">días/año</div>
+                    </div>
+                    <a href="tel:${CONFIG.TELEFON}" class="stats-boto">${CONFIG.STATS_BOTO}</a>
+                    </div>
+
                 <hr class="separador">
 
                 <!-- CONTACTE -->
