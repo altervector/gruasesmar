@@ -45,6 +45,19 @@ class CochesContent extends HTMLElement {
                     color: var(--vermell);
                     font-weight: 800;
                 }
+                .galeria-turismos {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    gap: 16px;
+                    margin-top: 30px;
+                }
+                .galeria-turismos img {
+                    width: 100%;
+                    border-radius: var(--radi);
+                }
+                @media (min-width: 768px) {
+                    .galeria-turismos { grid-template-columns: 1fr 1fr; }
+                }
                 @media (min-width: 768px) {
                     .checklist-grid { grid-template-columns: repeat(3, 1fr); }
                 }
@@ -62,12 +75,20 @@ class CochesContent extends HTMLElement {
             </section>
 
             <section class="seccio" id="detall-servei">
+                <h2 class="seccio-titol">Asistimos a toda clase de turismos</h2>
+                <p class="seccio-text">Disponemos de una renovada y diversa flota de vehículos equipados para poder atender todo tipo de incidencias.</p>
+                
                 <div class="checklist-grid">
                     <div class="checklist-item"><span class="checklist-check">✔</span><span>Turismos</span></div>
                     <div class="checklist-item"><span class="checklist-check">✔</span><span>Furgonetas</span></div>
                     <div class="checklist-item"><span class="checklist-check">✔</span><span>Caravanas</span></div>
                     <div class="checklist-item"><span class="checklist-check">✔</span><span>Motocicletas</span></div>
                     <div class="checklist-item"><span class="checklist-check">✔</span><span>Autocaravanas</span></div>
+                </div>
+
+                <div class="galeria-turismos">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/turismos-1.jpg" alt="Traslado de turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/turismos-2.jpg" alt="Grúa asistiendo turismo">
                 </div>
 
                 <h2 class="seccio-titol" style="margin-top:40px;">Pasos básicos a seguir cuando esperamos asistencia en carretera</h2>
