@@ -31,7 +31,7 @@ const CONFIG = {
 
     // 3. IMATGES — pendents de baixar de la web original i pujar a avsets
     BLOC_HERO:      "images/gruasesmar/hero-gruasesmar.jpg",
-    FONS_SERVEIS:   "images/gruasesmar/servi.jpg",
+    FONS_SERVEIS:   "images/gruasesmar/servi/servi.jpg",
     QR:             "qr/qr-gruasesmar.png",                  // ← pendent generar
 
     // 4. NAVBAR
@@ -65,14 +65,14 @@ const CONFIG = {
     QUE_FEM_SRV:    "Nuestros servicios",
 
     ASSIST_CARRETERA: [
-        { titol: "Turismos", desc: "Ofrecemos un servicio integral de asistencia y transporte para toda clase de vehículos en toda Cataluña.", url: "coches.html", img: "images/gruasesmar/servicoches.jpg" },
-        { titol: "Motocicletas", desc: "Trasladamos todo tipo de motocicletas. Portamotos abatible, remolque innovador con sistema de carga a nivel de suelo.", url: "servicios/motocicletas.html", img: "images/gruasesmar/servimotos.jpg" },
-        { titol: "Vehículos pesados", desc: "Cuando tienes un problema con tu furgoneta o camión ligero, lo único que quieres es resolverlo lo antes posible.", url: "servicios/vehiculos-pesados.html", img: "images/gruasesmar/servipesados.jpg" },
+        { titol: "Turismos", desc: "Ofrecemos un servicio integral de asistencia y transporte para toda clase de vehículos en toda Cataluña.", url: "coches.html", img: "images/gruasesmar/servi/servicoches.jpg" },
+        { titol: "Motocicletas", desc: "Trasladamos todo tipo de motocicletas. Portamotos abatible, remolque innovador con sistema de carga a nivel de suelo.", url: "servicios/motocicletas.html", img: "images/gruasesmar/servi/servimotos.jpg" },
+        { titol: "Vehículos pesados", desc: "Cuando tienes un problema con tu furgoneta o camión ligero, lo único que quieres es resolverlo lo antes posible.", url: "servicios/vehiculos-pesados.html", img: "images/gruasesmar/servi/servipesados.jpg" },
     ],
     ALTRES_SERVEIS: [
-        { titol: "Cambios de baterías a domicilio", desc: "Cambio de batería a domicilio o estés donde estés. No te supondrá ningún inconveniente.", url: "servicios/baterias.html", img: "images/gruasesmar/servibaterias.png" },
-        { titol: "Reparación de neumáticos in situ", desc: "Reparación temporal de pinchazos para que puedas seguir con tu camino.", url: "servicios/neumaticos.html", img: "images/gruasesmar/servipneumaticos.jpg" },
-        { titol: "Servicio ITV", desc: "Con nuestro servicio de ITV a domicilio, te pasamos la ITV sin que salgas de casa.", url: "servicios/itv.html", img: "images/gruasesmar/serviitv.jpg" },
+        { titol: "Cambios de baterías a domicilio", desc: "Cambio de batería a domicilio o estés donde estés. No te supondrá ningún inconveniente.", url: "servicios/baterias.html", img: "images/gruasesmar/servi/servibaterias.png" },
+        { titol: "Reparación de neumáticos in situ", desc: "Reparación temporal de pinchazos para que puedas seguir con tu camino.", url: "servicios/neumaticos.html", img: "images/gruasesmar/servi/servipneumaticos.jpg" },
+        { titol: "Servicio ITV", desc: "Con nuestro servicio de ITV a domicilio, te pasamos la ITV sin que salgas de casa.", url: "servicios/itv.html", img: "images/gruasesmar/servi/serviitv.jpg" },
     ],
     
     ASSEG_TIT:      "Trabajamos con aseguradoras",
