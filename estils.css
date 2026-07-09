@@ -368,7 +368,10 @@ a:hover { text-decoration: underline; }
     text-decoration: none;
 }
 
-
+.legal{
+     margin: 110px auto;
+     padding: 15px;
+}
 
 .footer-poweredby {
     margin-top: 24px; font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
@@ -390,7 +393,13 @@ a:hover { text-decoration: underline; }
 @media (min-width: 768px) {
     .seccio { padding: 64px 40px; }
     .serveis-grid { grid-template-columns: repeat(3, 1fr); }
+
+    .legal{
+     margin: 130px auto;
+     padding: 20px ;
 }
+}
+
 
 /* ── PC ── */
 @media (min-width: 1024px) {
