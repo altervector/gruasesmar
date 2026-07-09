@@ -47,6 +47,10 @@
             a.addEventListener('click', () => menu.classList.remove('obert'));
         });
 
+
+
+        
+
         /* ── 2. FRANJA STATS (24h / 365 dies) ─────────────────
            Comuna a totes les pàgines, es pinta abans del footer.
            ════════════════════════════════════════════════════ */
