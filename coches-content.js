@@ -65,7 +65,7 @@ class CochesContent extends HTMLElement {
 
 
             <section class="hero hero-servei">
-                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/hero-turismos.jpg" alt="Turismos">
+                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/turismos/hero-turismos.jpg" alt="Turismos">
                 <div class="hero-overlay"></div>
                 <div class="hero-contingut">
                     <h1 class="hero-titol">ASISTENCIA EN CARRETERA PARA TODA CLASE DE TURISMOS</h1>
@@ -87,8 +87,8 @@ class CochesContent extends HTMLElement {
                 </div>
 
                 <div class="galeria-turismos">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/turismos-1.jpg" alt="Traslado de turismo">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/turismos-2.jpg" alt="Grúa asistiendo turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/turismos/turismos-1.jpg" alt="Traslado de turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/turismos/turismos-2.jpg" alt="Grúa asistiendo turismo">
                 </div>
 
                 <h2 class="seccio-titol" style="margin-top:40px;">Pasos básicos a seguir cuando esperamos asistencia en carretera</h2>
