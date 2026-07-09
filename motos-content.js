@@ -6,7 +6,7 @@
    el contingut de dins (nom de classe i tag diferents).
    ============================================================ */
 
-class CochesContent extends HTMLElement {
+class MotosContent extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 
@@ -87,8 +87,8 @@ class CochesContent extends HTMLElement {
                 </div>
 
                 <div class="galeria-turismos">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/turismos/turismos-1.jpg" alt="Traslado de turismo">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/turismos/turismos-2.jpg" alt="Grúa asistiendo turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/motos/motos-1.jpg" alt="Traslado de turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/motos/motos-2.jpg" alt="Grúa asistiendo turismo">
                 </div>
 
                 <h2 class="seccio-titol" style="margin-top:40px;">Pasos básicos a seguir cuando esperamos asistencia en carretera</h2>
@@ -103,4 +103,4 @@ class CochesContent extends HTMLElement {
         `;
     }
 }
-customElements.define('coches-content', CochesContent);
+customElements.define('motos-content', MotosContent);
