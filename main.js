@@ -1,15 +1,15 @@
 /* ============================================================
-   MAIN.JS — Grúas Esmar
-   PRIMER ESBORRANY — construeix la pàgina a partir de CONFIG
-   Estructura: navbar, hero, serveis, qui-som, instal·lacions,
-   contacte, footer. Tot en un sol index.html (com Àgora).
+   MAIN.JS — Grúas Esmar (índex)
+   Es carrega NOMÉS a index.html, després de comu.js.
+   Pinta el hero i les seccions pròpies de l'índex:
+   serveis, qui-som, mini-hero aseguradores.
    ============================================================ */
 
 (function() {
 
-    
+    const inicialitzar = async () => {
 
-        /* ── 2. HERO ───────────────────────────────────────── */
+        /* ── HERO ──────────────────────────────────────────── */
         const hero = document.getElementById('hero');
         if (hero) {
             hero.innerHTML = `
@@ -29,22 +29,18 @@
             `;
         }
 
-        /* ── 3. SECCIONS ───────────────────────────────────── */
+        /* ── SECCIONS ──────────────────────────────────────── */
         const seccions = document.getElementById('seccions');
         if (seccions) {
-
-
-
             seccions.innerHTML = `
 
-                <!-- SERVEIS — abans eren 6 pàgines separades, ara un sol bloc -->
                 <!-- SERVEIS — dos blocs, com a l'original -->
                 <section class="seccio seccio-serveis" id="serveis" style="background-image:url('${CONFIG.ASSETS}${CONFIG.FONS_SERVEIS}');">
                     <h2 class="seccio-titol">Asistencia en Carretera 24h 365 días</h2>
                     <p class="seccio-text">Realizamos servicio en todo el Vallés Occidental y traslado de vehículos a toda Cataluña.</p>
                     <div class="serveis-grid">
                         ${CONFIG.ASSIST_CARRETERA.map(s => `
-                             <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">
+                            <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">
                                 <div class="servei-titol">${s.titol}</div>
                                 <div class="servei-desc">${s.desc}</div>
                                 <a href="${s.url}" class="servei-link">Leer más</a>
@@ -56,7 +52,7 @@
                     <p class="seccio-text">Especialistas en reparación in situ, economizando tiempo, trabajo y riesgos.</p>
                     <div class="serveis-grid">
                         ${CONFIG.ALTRES_SERVEIS.map(s => `
-                             <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">
+                            <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">
                                 <div class="servei-titol">${s.titol}</div>
                                 <div class="servei-desc">${s.desc}</div>
                                 <a href="${s.url}" class="servei-link">Leer más</a>
@@ -67,7 +63,7 @@
 
                 <hr class="separador">
 
-            <!-- CONEIX-NOS — 3 targetes que obren modal amb detall -->
+                <!-- CONEIX-NOS — 3 targetes que obren modal amb detall -->
                 <section class="seccio" id="qui-som">
                     <p class="seccio-eyebrow">${CONFIG.QUI_SOM}</p>
                     <h2 class="seccio-titol">Conócenos</h2>
@@ -76,7 +72,7 @@
                             <div class="servei-titol">${CONFIG.QUI_SOM_TIT}</div>
                             <div class="servei-desc">${CONFIG.QUI_DESC.slice(0,90)}... <b>Ver más</b></div>
                         </div>
-                       <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.FLOTA_IMG}'); background-size:cover; background-position:center;" onclick="obrirModalInfo('flota')">
+                        <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.FLOTA_IMG}'); background-size:cover; background-position:center;" onclick="obrirModalInfo('flota')">
                             <div class="servei-titol">${CONFIG.FLOTA_TIT}</div>
                             <div class="servei-desc">${CONFIG.FLOTA_DESC.slice(0,90)}... <b>Ver más</b></div>
                         </div>
@@ -88,56 +84,17 @@
                 </section>
 
                 <div class="mini-hero" style="background-image:url('${CONFIG.ASSETS}${CONFIG.ASSEG_IMG}');">
-                        <div class="mini-hero-overlay"></div>
-                        <div class="mini-hero-contingut">
-                            <h2 class="mini-hero-titol">${CONFIG.ASSEG_TIT}</h2>
-                            <p class="mini-hero-desc">${CONFIG.ASSEG_DESC}</p>
-                            <a href="#contacte" class="mini-hero-boto">${CONFIG.ASSEG_BOTO}</a>
-                        </div>
-                    </div>
-
- 
-
-        /* ── 5. NAVBAR SCROLL ──────────────────────────────── */
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('.navbar');
-            if (nav) nav.classList.toggle('scrolled', window.scrollY > 50);
-        });
-
-    // Modal senzill de text (reutilitzable per Qui som / Flota / Instal·lacions)
-        if (!document.getElementById('modal-info')) {
-            document.body.insertAdjacentHTML('beforeend', `
-                <div id="modal-info" style="display:none; position:fixed; top:0; left:0;
-                    width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999;
-                    align-items:center; justify-content:center; padding:20px;">
-                    <div style="background:#fff; max-width:500px; width:100%; padding:35px;
-                        border-radius:8px; position:relative;">
-                        <button onclick="document.getElementById('modal-info').style.display='none'"
-                            style="position:absolute; top:10px; right:14px; background:none;
-                            border:none; font-size:20px; cursor:pointer;">✕</button>
-                        <h3 id="modal-info-titol" style="color:var(--vermell); margin-bottom:14px;"></h3>
-                        <p id="modal-info-text" style="line-height:1.7; color:var(--gris-fosc);"></p>
+                    <div class="mini-hero-overlay"></div>
+                    <div class="mini-hero-contingut">
+                        <h2 class="mini-hero-titol">${CONFIG.ASSEG_TIT}</h2>
+                        <p class="mini-hero-desc">${CONFIG.ASSEG_DESC}</p>
+                        <a href="#contacte" class="mini-hero-boto">${CONFIG.ASSEG_BOTO}</a>
                     </div>
                 </div>
-            `);
+
+            `;
         }
 
-        window.obrirModalInfo = (tipus) => {
-            const dades = {
-                quisom:       { titol: CONFIG.QUI_SOM_TIT,  text: CONFIG.QUI_DESC },
-                flota:        { titol: CONFIG.FLOTA_TIT,    text: CONFIG.FLOTA_DESC },
-                instalacions: { titol: CONFIG.INSTAL_TIT,   text: CONFIG.INSTAL_DESC },
-            };
-            document.getElementById('modal-info-titol').textContent = dades[tipus].titol;
-            document.getElementById('modal-info-text').textContent  = dades[tipus].text;
-            document.getElementById('modal-info').style.display = 'flex';
-        };
-    
-    
-    
-    
-    
-    
     }; // fi inicialitzar
 
     if (document.readyState === "complete" || document.readyState === "interactive") {

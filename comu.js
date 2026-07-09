@@ -1,18 +1,17 @@
 /* ============================================================
-   MAIN.JS — Grúas Esmar
-   PRIMER ESBORRANY — construeix la pàgina a partir de CONFIG
-   Estructura: navbar, hero, serveis, qui-som, instal·lacions,
-   contacte, footer. Tot en un sol index.html (com Àgora).
+   COMU.JS — Grúas Esmar
+   Es carrega a TOTES les pàgines. Conté el que es repeteix:
+   franja superior, navbar, franja de stats (24h/365d), contacte,
+   footer, efecte de scroll del navbar, i el modal informatiu.
+   Cada pàgina, a més d'aquest, carrega el seu propi JS (main.js,
+   turismos.js...) que només pinta el #hero i el #seccions propis.
    ============================================================ */
 
 (function() {
 
     const inicialitzar = async () => {
 
-        /* ── 0. FRANJA SUPERIOR ────────────────────────────────
-           Barra blava per sobre del navbar amb telèfon i email.
-           A la web original és una franja separada del menú.
-           ════════════════════════════════════════════════════ */
+        /* ── 0. FRANJA SUPERIOR ────────────────────────────── */
         const franja = document.getElementById('franja-superior');
         if (franja) {
             franja.innerHTML = `
@@ -47,12 +46,14 @@
         menu.querySelectorAll('a').forEach(a => {
             a.addEventListener('click', () => menu.classList.remove('obert'));
         });
-         /* ── Cos de la pagina ───────────────────────────────────────── */
 
-
-        /* ── /Cos de la pagina ───────────────────────────────────────── */
-        
-                    <div class="franja-stats" style="background-image:url('${CONFIG.ASSETS}${CONFIG.STATS_IMG}');">
+        /* ── 2. FRANJA STATS (24h / 365 dies) ─────────────────
+           Comuna a totes les pàgines, es pinta abans del footer.
+           ════════════════════════════════════════════════════ */
+        const stats = document.getElementById('franja-stats');
+        if (stats) {
+            stats.innerHTML = `
+                <div class="franja-stats" style="background-image:url('${CONFIG.ASSETS}${CONFIG.STATS_IMG}');">
                     <div class="franja-stats-overlay"></div>
                     <div class="stat-item">
                         <div class="stat-numero">24</div>
@@ -63,11 +64,14 @@
                         <div class="stat-label">días/año</div>
                     </div>
                     <a href="tel:${CONFIG.TELEFON}" class="stats-boto">${CONFIG.STATS_BOTO}</a>
-                    </div>
+                </div>
+            `;
+        }
 
-                <hr class="separador">
-
-                <!-- CONTACTE -->
+        /* ── 3. CONTACTE ───────────────────────────────────── */
+        const contacte = document.getElementById('contacte');
+        if (contacte) {
+            contacte.innerHTML = `
                 <section class="seccio" id="contacte">
                     <p class="seccio-eyebrow">${CONFIG.ON_SOM}</p>
                     <h2 class="seccio-titol">${CONFIG.ON_SOM_TIT}</h2>
@@ -105,20 +109,19 @@
                         </div>
                     </div>
 
-                    <!-- FORMULARI CONTACTE — pendent: connectar amb Worker propi 
+                    <!-- FORMULARI CONTACTE — amagat per ara, pendent decidir -->
+                    <!--
                     <form class="form-contacte" id="form-contacte">
                         <input type="text" name="nom" placeholder="Nombre" required>
                         <input type="email" name="email" placeholder="Email" required>
                         <input type="tel" name="telefon" placeholder="Teléfono">
                         <textarea name="missatge" placeholder="Mensaje" required></textarea>
                         <button type="submit" class="hero-boto-principal btn-balla">Enviar</button>
-                    </form>-->
+                    </form>
+                    -->
 
                     <a href="${CONFIG.WHATSAPP}" target="_blank" class="boto-whatsapp btn-balla">${CONFIG.WHATSAPPLBL}</a>
                 </section>
-
-                <!-- TREBALLA AMB NOSALTRES — pendent: definir si es queda com a secció
-                     o modal, i com gestionar la pujada de CV amb el Worker -->
             `;
         }
 
@@ -154,7 +157,7 @@
             if (nav) nav.classList.toggle('scrolled', window.scrollY > 50);
         });
 
-    // Modal senzill de text (reutilitzable per Qui som / Flota / Instal·lacions)
+        /* ── 6. MODAL INFO (Qui som / Flota / Instal·lacions) ─ */
         if (!document.getElementById('modal-info')) {
             document.body.insertAdjacentHTML('beforeend', `
                 <div id="modal-info" style="display:none; position:fixed; top:0; left:0;
@@ -182,12 +185,7 @@
             document.getElementById('modal-info-text').textContent  = dades[tipus].text;
             document.getElementById('modal-info').style.display = 'flex';
         };
-    
-    
-    
-    
-    
-    
+
     }; // fi inicialitzar
 
     if (document.readyState === "complete" || document.readyState === "interactive") {
