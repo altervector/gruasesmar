@@ -20,7 +20,13 @@ class CochesContent extends HTMLElement {
                 }
                 .hero-servei .hero-contingut {
                     max-width: 600px;
-                    margin-top: 40px;
+                    margin-top: 100px;
+                }
+                    .hero-servei .hero-titol {
+                    font-size: 1.5rem;
+                }
+                .hero-servei .hero-overlay {
+                    background: rgba(33, 102, 204, 0.61);
                 }
                 .checklist-grid {
                     display: grid;

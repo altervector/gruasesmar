@@ -65,7 +65,7 @@ const CONFIG = {
     QUE_FEM_SRV:    "Nuestros servicios",
 
     ASSIST_CARRETERA: [
-        { titol: "Turismos", desc: "Ofrecemos un servicio integral de asistencia y transporte para toda clase de vehículos en toda Cataluña.", url: "servicios/turismos.html", img: "images/gruasesmar/servicoches.jpg" },
+        { titol: "Turismos", desc: "Ofrecemos un servicio integral de asistencia y transporte para toda clase de vehículos en toda Cataluña.", url: "coches.html", img: "images/gruasesmar/servicoches.jpg" },
         { titol: "Motocicletas", desc: "Trasladamos todo tipo de motocicletas. Portamotos abatible, remolque innovador con sistema de carga a nivel de suelo.", url: "servicios/motocicletas.html", img: "images/gruasesmar/servimotos.jpg" },
         { titol: "Vehículos pesados", desc: "Cuando tienes un problema con tu furgoneta o camión ligero, lo único que quieres es resolverlo lo antes posible.", url: "servicios/vehiculos-pesados.html", img: "images/gruasesmar/servipesados.jpg" },
     ],
