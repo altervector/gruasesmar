@@ -22,16 +22,15 @@
 
     <script src="config.js"></script>
     <script>
-        window.MODULS = ["main.js"];
+        window.MODULS = ["nav-comu.js", "footer-comu.js"];
     </script>
     <script src="loader.js"></script>
 </head>
 
 <body>
-    <div id="franja-superior"></div>
-    <div id="navbar"></div>
-    <div id="hero">Política de privacidad
-Quiénes somos
+    <nav-comu></nav-comu>
+    <cos>
+        Quiénes somos
 
 La dirección de nuestra web es: https://www.gruasesmar.com.
 Qué datos personales recogemos y por qué los recogemos
@@ -78,7 +77,10 @@ Qué procedimientos utilizamos contra las brechas de datos
 De qué terceros recibimos datos
 Qué tipo de toma de decisiones automatizada y/o perfilado hacemos con los datos del usuario
 Requerimientos regulatorios de revelación de información del sector
-</div>
+
+</cos>
+    <footer-comu></footer-comu>
+
     
     <div id="footer"></div>
 </body>
