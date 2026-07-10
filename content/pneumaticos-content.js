@@ -90,4 +90,4 @@ class PneumaticosContent extends HTMLElement {
         `;
     }
 }
-customElements.define('pneumaticos-content', PneumaticosContentneumaticos);
+customElements.define('pneumaticos-content', PneumaticosContent);

@@ -18,7 +18,7 @@ const SERVEIS_MAP = {
     motos:       { js: "content/motos-content.js",       tag: "motos-content"       },
     pesados:     { js: "content/pesados-content.js",     tag: "pesados-content"     },
     baterias:    { js: "content/baterias-content.js",    tag: "baterias-content"    },
-    neumaticos:  { js: "content/neumaticos-content.js",  tag: "neumaticos-content"  },
+    pneumaticos:  { js: "content/pneumaticos-content.js",  tag: "pneumaticos-content"  },
     itv:         { js: "content/itv-content.js",         tag: "itv-content"         },
         conocenos:      { js: "content/conocenos-content.js",      tag: "conocenos-content"      },
         flota:          { js: "content/flota-content.js",          tag: "flota-content"          },
