@@ -1,11 +1,16 @@
 /* ============================================================
-   CONOCENOS-CONTENT.JS — Grúas Esmar
-   Web Component: <conocenos-content></conocenos-content>
+   FLOTA-CONTENT.JS — Grúas Esmar
+   Web Component: <flota-content></flota-content>
    Mateix esquelet que coches-content.js (hero + seccio),
-   adaptat amb blocs imatge+text i llista de política de qualitat.
+   amb una llista de vehicles (imatge + títol + text).
+
+   NOTA: Iveco Eurocargo, DAF LF (2a unitat) i Isuzu Dmax
+   a l'original tenien text de mostra (lorem ipsum) —
+   aquí hi ha un text genèric provisional, pendent que
+   la clienta doni el text definitiu de cada vehicle.
    ============================================================ */
 
-class ConocenosContent extends HTMLElement {
+class FlotaContent extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 
@@ -27,94 +32,116 @@ class ConocenosContent extends HTMLElement {
                 .hero-servei .hero-overlay {
                     background: rgba(33, 102, 204, 0.61);
                 }
-                .bloc-imatge-text {
+                .flota-imatge-principal {
+                    width: 100%;
+                    border-radius: var(--radi);
+                    margin: 20px 0 10px 0;
+                }
+                .vehicle-item {
                     display: grid;
                     grid-template-columns: 1fr;
-                    gap: 24px;
+                    gap: 16px;
                     align-items: center;
-                    margin-bottom: 30px;
+                    margin-top: 30px;
+                    padding-top: 30px;
+                    border-top: 1px solid rgba(0,0,0,0.07);
                 }
-                .bloc-imatge-text img {
+                .vehicle-item img {
                     width: 100%;
                     border-radius: var(--radi);
                 }
-                .checklist-grid {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    gap: 14px;
-                    margin-top: 20px;
-                }
-                .checklist-item {
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                    font-weight: 600;
+                .vehicle-titol {
+                    font-size: 1.15rem;
+                    font-weight: 700;
                     color: var(--gris-fosc);
+                    margin-bottom: 8px;
                 }
-                .checklist-check {
+                .vehicle-tags {
+                    font-size: 12px;
+                    font-weight: 700;
+                    letter-spacing: 0.5px;
                     color: var(--vermell);
-                    font-weight: 800;
-                }
-                .cita-destacada {
-                    border-left: 3px solid var(--vermell);
-                    padding: 4px 20px;
-                    margin-top: 30px;
-                    font-style: italic;
-                    color: var(--gris-fosc);
-                    font-size: 1.05rem;
+                    text-transform: uppercase;
+                    margin-bottom: 6px;
                 }
                 @media (min-width: 768px) {
-                    .bloc-imatge-text { grid-template-columns: 1fr 1fr; }
-                    .checklist-grid { grid-template-columns: repeat(2, 1fr); }
+                    .vehicle-item { grid-template-columns: 1fr 2fr; }
                 }
             </style>
 
 
             <section class="hero hero-servei">
-                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/conocenos.png" alt="Conócenos">
+                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/servi/flota/hero-flota.jpg" alt="Flota Grúas Esmar">
                 <div class="hero-overlay"></div>
                 <div class="hero-contingut">
-                    <h1 class="hero-titol">CONÓCENOS</h1>
-                    <p class="hero-slogan">Contamos con más 30 años de experiencia en servicio de asistencia en carretera</p>                    <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla">${CONFIG.HERO_BOTO_PRI}</a>
+                    <h1 class="hero-titol">NUESTRA FLOTA</h1>
+                    <p class="hero-slogan">CONTAMOS CON UNA AMPLIA FLOTA DE GRÚAS PREPARADAS PARA CUBRIR TODAS LAS NECESIDADES</p> 
                 </div>
             </section>
 
             <section class="seccio" id="detall-servei">
+                <h2>Conozca nuestra flota</h2>
+                <p class="seccio-text">Creemos en una organización enfocada a las necesidades y expectativas de nuestros clientes, en una orientación de la gestión de la empresa hacia los procesos que se llevan a cabo y en la necesidad de mejorar nuestro sistema de gestión de flota de una manera continuada y sistemática, teniendo en cuenta el cumplimiento de los requisitos legales y reglamentarios.</p>
 
-                <div class="bloc-imatge-text">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/conocenos1.jpg" alt="Grúas Esmar">
+                <img class="flota-imatge-principal" src="${CONFIG.ASSETS}images/gruasesmar/servi/flota/hero-flota.jpg" alt="Flota de vehículos Grúas Esmar">
+
+                <h2 class="seccio-titol" style="margin-top:30px;">Nuestros vehículos</h2>
+                <p class="seccio-text">Disponemos de una amplia y variada flota de vehículos, completamente renovada y equipada para atender cualquier tipo de incidencia en carretera.</p>
+
+                <!-- OPEL CORSA VAN -->
+                <div class="vehicle-item">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/flota/flota-1.png" alt="Opel Corsa Van">
                     <div>
-                        <h2 class="seccio-titol">Nuestra historia</h2>
-                        <p class="seccio-text">Los 30 años de experiencia nos han hecho conocer las demandas del mercado actual, y con el tiempo hemos conseguido uno de nuestros principales objetivos; ofrecer un buen servicio a nuestros clientes.</p>
-                        <p class="seccio-text">Por eso contamos con un equipo de profesionales especializados en la asistencia en carretera, así como una amplia y variada flota de vehículos completamente renovada.</p>
-  
-
-                <p class="seccio-text">Las principales compañías de asistencia en carretera han depositado su confianza en nosotros. Formamos un equipo humano que permite situar nuestra empresa como una de las mejores servicios de grúa y asistencia en carretera de la provincia.</p>
-                <p class="seccio-text">La calidad y la colaboración con sus clientes son, desde el mismo instante de su fundación, la base del éxito de Grúas Esmar.</p>
-                <h2 class="seccio-titol" style="margin-top:24px;">Y de cara al futuro...</h2>
-                <p class="seccio-text">Los responsables de Grúas Esmar apuestan por mantener su política de calidad y servicio al cliente y, al mismo tiempo, hacer frente al mercado con el valor justo de un servicio urgente como el de la asistencia en carretera.</p>
-
-                <p class="seccio-text" style="text-align:center; font-weight:700; font-size:1.15rem; margin-top:30px;">
-                    Comprometidos con cada servicio dando la mejor calidad.
-                </p>
-                  </div>
-                </div>
-                <h2 class="seccio-titol" style="margin-top:40px;">Política de Calidad</h2>
-                <p class="seccio-text">Creemos en una organización enfocada a las necesidades y expectativas de nuestros clientes, con una orientación de la gestión de la empresa hacia los procesos que se llevan a cabo y en la necesidad de mejorar nuestro sistema de gestión de flota de una manera continuada y sistemática, teniendo en cuenta el cumplimiento de los requisitos legales y reglamentarios.</p>
-
-                <div class="checklist-grid">
-                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Formar a nuestro personal de forma continuada para ofrecer un servicio más eficaz.</span></div>
-                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Disponer de material de primer orden en el mercado de este sector.</span></div>
-                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Asegurar una actuación que se distinga por la profesionalidad, seguridad y rapidez.</span></div>
-                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Ofrecer un buen servicio con una elevada relación calidad-precio.</span></div>
+                        <div class="vehicle-titol">Opel Corsa Van</div>
+                        <p class="seccio-text">Con nuestro Opel Corsa Van realizamos la asistencia en carretera más completa en toda la zona del Vallés Occidental, ofreciendo nuestros servicios allá donde estés.</p>
+                        <div class="vehicle-tags">Turismos · Motocicletas · Autocaravanas</div>
+                        <p class="seccio-text">Asistencia en carretera 24 horas los 365 días al año para toda clase de turismos, motocicletas y autocaravanas.</p>
+                    </div>
                 </div>
 
-                <p class="cita-destacada">
-                    Nos gustan los retos y cada día nos gusta más superarnos. No nos damos por vencidos nunca y cueste lo que nos cueste sacamos cada servicio con éxito.
-                </p>
+                <!-- DAF LF -->
+                <div class="vehicle-item">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/flota/flota-2.jpg" alt="DAF LF">
+                    <div>
+                        <div class="vehicle-titol">DAF LF</div>
+                        <p class="seccio-text">Con nuestras grúas DAF LF realizamos la asistencia en carretera más completa en toda la zona del Vallés Occidental, ofreciendo nuestros servicios allá donde estés.</p>
+                        <div class="vehicle-tags">Turismos · Motocicletas · Furgonetas · Autocaravanas · Caravanas · Camiones ligeros</div>
+                        <p class="seccio-text">Servicio de grúa para toda clase de vehículos. Asistencia en carretera 24 horas los 365 días al año.</p>
+                    </div>
+                </div>
+
+                <!-- IVECO EUROCARGO — text pendent de la clienta -->
+                <div class="vehicle-item">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/flota/flota-3.jpg" alt="Iveco Eurocargo">
+                    <div>
+                        <div class="vehicle-titol">Iveco Eurocargo</div>
+                        <p class="seccio-text">Vehículo de nuestra flota preparado para dar servicio de asistencia en carretera en toda la zona del Vallés Occidental.</p>
+                        <div class="vehicle-tags">Turismos · Motocicletas · Autocaravanas</div>
+                    </div>
+                </div>
+
+                <!-- DAF LF (2a unitat) — text pendent de la clienta -->
+                <div class="vehicle-item">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/flota/flota-4.jpg" alt="DAF LF">
+                    <div>
+                        <div class="vehicle-titol">DAF LF</div>
+                        <p class="seccio-text">Vehículo de nuestra flota preparado para dar servicio de asistencia en carretera en toda la zona del Vallés Occidental.</p>
+                        <div class="vehicle-tags">Turismos · Motocicletas · Autocaravanas</div>
+                    </div>
+                </div>
+
+                <!-- ISUZU DMAX — text pendent de la clienta -->
+                <div class="vehicle-item">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/flota/flota-5.jpg" alt="Isuzu Dmax">
+                    <div>
+                        <div class="vehicle-titol">Isuzu Dmax</div>
+                        <p class="seccio-text">Vehículo de nuestra flota preparado para dar servicio de asistencia en carretera en toda la zona del Vallés Occidental.</p>
+                        <div class="vehicle-tags">Turismos · Motocicletas · Autocaravanas</div>
+                    </div>
+                </div>
 
             </section>
         `;
     }
 }
-customElements.define('conocenos-content', ConocenosContent);
+customElements.define('flota-content', FlotaContent);

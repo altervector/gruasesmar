@@ -75,14 +75,14 @@ class ConocenosContent extends HTMLElement {
                 <div class="hero-overlay"></div>
                 <div class="hero-contingut">
                     <h1 class="hero-titol">CONÓCENOS</h1>
-                    <p class="hero-slogan">Contamos con más 30 años de experiencia en servicio de asistencia en carretera</p>                    <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla">${CONFIG.HERO_BOTO_PRI}</a>
+                    <p class="hero-slogan">Contamos con más 30 años de experiencia en servicio de asistencia en carretera</p> 
                 </div>
             </section>
 
             <section class="seccio" id="detall-servei">
 
                 <div class="bloc-imatge-text">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar//servi/conocenos/conocenos1.jpg" alt="Grúas Esmar">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/conocenos/conocenos1.jpg" alt="Grúas Esmar">
                     <div>
                         <h2 class="seccio-titol">Nuestra historia</h2>
                         <p class="seccio-text">Los 30 años de experiencia nos han hecho conocer las demandas del mercado actual, y con el tiempo hemos conseguido uno de nuestros principales objetivos; ofrecer un buen servicio a nuestros clientes.</p>
