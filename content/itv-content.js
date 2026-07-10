@@ -68,7 +68,7 @@ class ItvContent extends HTMLElement {
                 <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/servi/itv/hero-itv.jpg" alt="Pesados">
                 <div class="hero-overlay"></div>
                 <div class="hero-contingut">
-                    <h1 class="hero-titol">SERVICIO DE ITV A DOMICILIO/h1>
+                    <h1 class="hero-titol">SERVICIO DE ITV A DOMICILIO</h1>
                     <p class="hero-slogan">Cubrimos todo el Vallés Occidental, las 24 horas 365 días</p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla">Contacta con nosotros</a>
                 </div>
