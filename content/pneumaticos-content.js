@@ -6,7 +6,7 @@
    el contingut de dins (nom de classe i tag diferents).
    ============================================================ */
 
-class BateriasContent extends HTMLElement {
+class PneumaticosContent extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 
@@ -65,10 +65,10 @@ class BateriasContent extends HTMLElement {
 
 
             <section class="hero hero-servei">
-                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/servi/baterias/baterias-2.png" alt="Pesados">
+                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/servi/pneumaticos/hero-pneumaticos.jpg" alt="Pesados">
                 <div class="hero-overlay"></div>
                 <div class="hero-contingut">
-                    <h1 class="hero-titol">CAMBIO DE BATERÍAS A DOMICILIO</h1>
+                    <h1 class="hero-titol">REPARACIÓN DE NEUMÁTICOS IN SITU</h1>
                     <p class="hero-slogan">Cubrimos todo el Vallés Occidental, las 24 horas 365 días</p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla">Contacta con nosotros</a>
                 </div>
@@ -78,11 +78,11 @@ class BateriasContent extends HTMLElement {
                 
 
                 <div class="galeria-turismos">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/baterias/baterias-1.png" alt="Traslado de turismo">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/baterias/baterias-2.png" alt="Grúa asistiendo turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/pneumaticos/pneumaticos-1.jpg" alt="Traslado de turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/pneumaticos/pneumaticos-2.jpg" alt="Grúa asistiendo turismo">
                 </div>
 
-                <h2 class="seccio-titol" style="margin-top:40px;">Cómo cambiar la batería del coche, moto o camión</h2>
+                <h2 class="seccio-titol" style="margin-top:40px;">Nos desplazamos y le reparamos el neumático allá donde esté su vehículo</h2>
                 <div class="seccio-text">
                     <p>FALTA TEXTO</p>
                 </div>
@@ -90,4 +90,4 @@ class BateriasContent extends HTMLElement {
         `;
     }
 }
-customElements.define('baterias-content', BateriasContent);
+customElements.define('pneumaticos-content', PneumaticosContentneumaticos);
