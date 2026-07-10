@@ -65,9 +65,9 @@ const CONFIG = {
     QUE_FEM_SRV:    "Nuestros servicios",
 
     ASSIST_CARRETERA: [
-        { titol: "Turismos", desc: "Ofrecemos un servicio integral de asistencia y transporte para toda clase de vehículos en toda Cataluña.", url: "servicio.html?s=coches", img: "images/gruasesmar/servi/servicoches.jpg" },
-        { titol: "Motocicletas", desc: "Trasladamos todo tipo de motocicletas. Portamotos abatible, remolque innovador con sistema de carga a nivel de suelo.", url: "servicio.html?s=motos", img: "images/gruasesmar/servi/servimotos.jpg" },
-        { titol: "Vehículos pesados", desc: "Cuando tienes un problema con tu furgoneta o camión ligero, lo único que quieres es resolverlo lo antes posible.", url: "servicio.html?s=pesados", img: "images/gruasesmar/servi/servipesados.jpg" },
+        { titol: "Turismos", desc: "Ofrecemos un servicio integral de asistencia y transporte para toda clase de vehículos en toda Cataluña.", url: "servicio.html?s=coches", img: "images/gruasesmar/servi/turismos/turismos-1.jpg" },
+        { titol: "Motocicletas", desc: "Trasladamos todo tipo de motocicletas. Portamotos abatible, remolque innovador con sistema de carga a nivel de suelo.", url: "servicio.html?s=motos", img: "images/gruasesmar/servi/motos/motos-1.jpg" },
+        { titol: "Vehículos pesados", desc: "Cuando tienes un problema con tu furgoneta o camión ligero, lo único que quieres es resolverlo lo antes posible.", url: "servicio.html?s=pesados", img: "images/gruasesmar/servi/pesados/hero-pesados.jpg" },
     ],
     ALTRES_SERVEIS: [
         { titol: "Cambios de baterías a domicilio", desc: "Cambio de batería a domicilio o estés donde estés. No te supondrá ningún inconveniente.", url: "servicio.html?s=baterias", img: "images/gruasesmar/servi/servibaterias.png" },

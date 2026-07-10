@@ -14,13 +14,13 @@
    ============================================================ */
 
 const SERVEIS_MAP = {
-    coches:      { js: "coches-content.js",      tag: "coches-content"      },
-    motos:       { js: "motos-content.js",       tag: "motos-content"       },
-    pesados:     { js: "pesados-content.js",     tag: "pesados-content"     },
-    baterias:    { js: "baterias-content.js",    tag: "baterias-content"    },
-    neumaticos:  { js: "neumaticos-content.js",  tag: "neumaticos-content"  },
-    itv:         { js: "itv-content.js",         tag: "itv-content"         },
-        conocenos:      { js: "conocenos-content.js",      tag: "conocenos-content"      },
-        flota:          { js: "flota-content.js",          tag: "flota-content"          },
-        instalaciones:  { js: "instalaciones-content.js",  tag: "instalaciones-content"  },
+    coches:      { js: "content/coches-content.js",      tag: "coches-content"      },
+    motos:       { js: "content/motos-content.js",       tag: "motos-content"       },
+    pesados:     { js: "content/pesados-content.js",     tag: "pesados-content"     },
+    baterias:    { js: "content/baterias-content.js",    tag: "baterias-content"    },
+    neumaticos:  { js: "content/neumaticos-content.js",  tag: "neumaticos-content"  },
+    itv:         { js: "content/itv-content.js",         tag: "itv-content"         },
+        conocenos:      { js: "content/conocenos-content.js",      tag: "conocenos-content"      },
+        flota:          { js: "content/flota-content.js",          tag: "flota-content"          },
+        instalaciones:  { js: "content/instalaciones-content.js",  tag: "instalaciones-content"  },
 };
