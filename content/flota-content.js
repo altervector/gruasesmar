@@ -71,7 +71,7 @@ class ConocenosContent extends HTMLElement {
 
 
             <section class="hero hero-servei">
-                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/servi/conocenos/conocenos.png" alt="Conócenos">
+                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/conocenos.png" alt="Conócenos">
                 <div class="hero-overlay"></div>
                 <div class="hero-contingut">
                     <h1 class="hero-titol">CONÓCENOS</h1>
@@ -82,7 +82,7 @@ class ConocenosContent extends HTMLElement {
             <section class="seccio" id="detall-servei">
 
                 <div class="bloc-imatge-text">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar//servi/conocenos/conocenos1.jpg" alt="Grúas Esmar">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/conocenos1.jpg" alt="Grúas Esmar">
                     <div>
                         <h2 class="seccio-titol">Nuestra historia</h2>
                         <p class="seccio-text">Los 30 años de experiencia nos han hecho conocer las demandas del mercado actual, y con el tiempo hemos conseguido uno de nuestros principales objetivos; ofrecer un buen servicio a nuestros clientes.</p>
