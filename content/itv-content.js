@@ -76,7 +76,7 @@ class ItvContent extends HTMLElement {
 
             <section class="seccio" id="detall-servei">
                 <h2 class="seccio-titol">Nos desplazamos y te pasamos la ITV.</h2>
-                <p class="seccio-text">FALTA TEXTO</p>
+                <p class="seccio-text">En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. </p>
                 <div class="checklist-grid">
                     <div class="checklist-item"><span class="checklist-check">✔</span><span>Turismos</span></div>
                     <div class="checklist-item"><span class="checklist-check">✔</span><span>Camiones</span></div>
@@ -91,7 +91,7 @@ class ItvContent extends HTMLElement {
 
                 <h2 class="seccio-titol" style="margin-top:40px;">Consejos para pasar la ITV.</h2>
                 <div class="seccio-text">
-                    <p>FALTA TEXTO</p>
+                    <p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. </p>
                 </div>
             </section>
         `;

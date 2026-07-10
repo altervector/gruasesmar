@@ -76,7 +76,7 @@ class PneumaticosContent extends HTMLElement {
 
             <section class="seccio" id="detall-servei">
                 <h2 class="seccio-titol">Nos desplazamos y le reparamos el pneumático allá donde esté su vehículo.</h2>
-                <p class="seccio-text">FALTA TEXTO</p>
+                <p class="seccio-text">En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. </p>
                 <div class="checklist-grid">
                     <div class="checklist-item"><span class="checklist-check">✔</span><span>pneumaticos para Turismos</span></div>
                     <div class="checklist-item"><span class="checklist-check">✔</span><span>pneumaticos para Camiones</span></div>
@@ -92,7 +92,7 @@ class PneumaticosContent extends HTMLElement {
 
                 <h2 class="seccio-titol" style="margin-top:40px;">Cómo reparar una rueda de un coche, moto o camión.</h2>
                 <div class="seccio-text">
-                    <p>FALTA TEXTO</p>
+                    <p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. </p>
                 </div>
             </section>
         `;
