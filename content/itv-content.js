@@ -75,14 +75,21 @@ class ItvContent extends HTMLElement {
             </section>
 
             <section class="seccio" id="detall-servei">
-                
-
+                <h2 class="seccio-titol">Nos desplazamos y te pasamos la ITV.</h2>
+                <p class="seccio-text">FALTA TEXTO</p>
+                <div class="checklist-grid">
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Turismos</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Camiones</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Caravanas</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Motocicletas</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Autocaravanas</span></div>
+                </div>
                 <div class="galeria-turismos">
                     <img src="${CONFIG.ASSETS}images/gruasesmar/servi/itv/itv-1.jpg" alt="Traslado de turismo">
                     <img src="${CONFIG.ASSETS}images/gruasesmar/servi/itv/itv-2.jpg" alt="Grúa asistiendo turismo">
                 </div>
 
-                <h2 class="seccio-titol" style="margin-top:40px;">Nos desplazamos y te pasamos la ITV</h2>
+                <h2 class="seccio-titol" style="margin-top:40px;">Consejos para pasar la ITV.</h2>
                 <div class="seccio-text">
                     <p>FALTA TEXTO</p>
                 </div>

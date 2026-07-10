@@ -75,7 +75,15 @@ class BateriasContent extends HTMLElement {
             </section>
 
             <section class="seccio" id="detall-servei">
-                
+                <h2 class="seccio-titol">Nos desplazamos y le cambiamos la batería allá donde esté su vehículo</h2>
+                <p class="seccio-text">FALTA TEXTO</p>
+                <div class="checklist-grid">
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Bateria para Turismos</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Bateria para Camiones</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Bateria para Caravanas</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Bateria para Motocicletas</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Bateria para Autocaravanas</span></div>
+                </div>
 
                 <div class="galeria-turismos">
                     <img src="${CONFIG.ASSETS}images/gruasesmar/servi/baterias/baterias-1.png" alt="Traslado de turismo">

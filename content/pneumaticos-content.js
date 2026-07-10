@@ -68,21 +68,29 @@ class PneumaticosContent extends HTMLElement {
                 <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/servi/pneumaticos/hero-pneumaticos.jpg" alt="Pesados">
                 <div class="hero-overlay"></div>
                 <div class="hero-contingut">
-                    <h1 class="hero-titol">REPARACIÓN DE NEUMÁTICOS IN SITU</h1>
+                    <h1 class="hero-titol">REPARACIÓN DE PNEUMÁTICOS IN SITU</h1>
                     <p class="hero-slogan">Cubrimos todo el Vallés Occidental, las 24 horas 365 días</p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla">Contacta con nosotros</a>
                 </div>
             </section>
 
             <section class="seccio" id="detall-servei">
-                
+                <h2 class="seccio-titol">Nos desplazamos y le reparamos el pneumático allá donde esté su vehículo.</h2>
+                <p class="seccio-text">FALTA TEXTO</p>
+                <div class="checklist-grid">
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>pneumaticos para Turismos</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>pneumaticos para Camiones</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>pneumaticos para Caravanas</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>pneumaticos para Motocicletas</span></div>
+                    <div class="checklist-item"><span class="checklist-check">✔</span><span>pneumaticos para Autocaravanas</span></div>
+                </div>
 
                 <div class="galeria-turismos">
                     <img src="${CONFIG.ASSETS}images/gruasesmar/servi/pneumaticos/pneumaticos-1.jpg" alt="Traslado de turismo">
                     <img src="${CONFIG.ASSETS}images/gruasesmar/servi/pneumaticos/pneumaticos-2.jpg" alt="Grúa asistiendo turismo">
                 </div>
 
-                <h2 class="seccio-titol" style="margin-top:40px;">Nos desplazamos y le reparamos el neumático allá donde esté su vehículo</h2>
+                <h2 class="seccio-titol" style="margin-top:40px;">Cómo reparar una rueda de un coche, moto o camión.</h2>
                 <div class="seccio-text">
                     <p>FALTA TEXTO</p>
                 </div>
