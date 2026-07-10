@@ -6,7 +6,7 @@
    el contingut de dins (nom de classe i tag diferents).
    ============================================================ */
 
-class MotosContent extends HTMLElement {
+class PesadosContent extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 
@@ -65,17 +65,17 @@ class MotosContent extends HTMLElement {
 
 
             <section class="hero hero-servei">
-                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/servi/motos/hero-turismos.jpg" alt="Motocicletas">
+                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/servi/pesados/hero-pesados.jpg" alt="Pesados">
                 <div class="hero-overlay"></div>
                 <div class="hero-contingut">
-                    <h1 class="hero-titol">ASISTENCIA EN CARRETERA PARA TODA CLASE DE MOTOCILCLETAS</h1>
+                    <h1 class="hero-titol">ASISTENCIA EN CARRETERA PARA TODA CLASE DE VEHICULOS PESADOS</h1>
                     <p class="hero-slogan">Cubrimos todo el Vallés Occidental, las 24 horas 365 días</p>
                     <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla">${CONFIG.HERO_BOTO_PRI} ahora</a>
                 </div>
             </section>
 
             <section class="seccio" id="detall-servei">
-                <h2 class="seccio-titol">Asistencia en carretera para tu moto</h2>
+                <h2 class="seccio-titol">Asistimos en carretera a toda clase de vehículos pesados</h2>
                 <p class="seccio-text">Disponemos de una renovada y diversa flota de vehículos equipados para poder atender todo tipo de incidencias.</p>
                 
                 <div class="checklist-grid">
@@ -87,8 +87,8 @@ class MotosContent extends HTMLElement {
                 </div>
 
                 <div class="galeria-turismos">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/motos/motos-1.jpg" alt="Traslado de turismo">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/motos/motos-2.jpg" alt="Grúa asistiendo turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/pesados/pesados-1.jpg" alt="Traslado de turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/pesados/pesados-2.jpg" alt="Grúa asistiendo turismo">
                 </div>
 
                 <h2 class="seccio-titol" style="margin-top:40px;">Pasos básicos a seguir cuando esperamos asistencia en carretera</h2>
@@ -103,4 +103,4 @@ class MotosContent extends HTMLElement {
         `;
     }
 }
-customElements.define('motos-content', MotosContent);
+customElements.define('pesados-content', PesadosContent);
