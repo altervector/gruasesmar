@@ -67,20 +67,23 @@
                 <section class="seccio" id="qui-som">
                     <p class="seccio-eyebrow">${CONFIG.QUI_SOM}</p>
                     <h2 class="seccio-titol">Conócenos</h2>
-                    <div class="serveis-grid">
-                        <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.QUI_SOM_IMG}'); background-size:cover; background-position:center;" onclick="obrirModalInfo('quisom')">
-                            <div class="servei-titol">${CONFIG.QUI_SOM_TIT}</div>
-                            <div class="servei-desc">${CONFIG.QUI_DESC.slice(0,90)}... <b>Ver más</b></div>
-                        </div>
-                        <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.FLOTA_IMG}'); background-size:cover; background-position:center;" onclick="obrirModalInfo('flota')">
-                            <div class="servei-titol">${CONFIG.FLOTA_TIT}</div>
-                            <div class="servei-desc">${CONFIG.FLOTA_DESC.slice(0,90)}... <b>Ver más</b></div>
-                        </div>
-                        <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.INSTAL_IMG}'); background-size:cover; background-position:center;" onclick="obrirModalInfo('instalacions')">
-                            <div class="servei-titol">${CONFIG.INSTAL_TIT}</div>
-                            <div class="servei-desc">${CONFIG.INSTAL_DESC.slice(0,90)}... <b>Ver más</b></div>
-                        </div>
-                    </div>
+<div class="serveis-grid">
+    <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.QUI_SOM_IMG}'); background-size:cover; background-position:center;">
+        <div class="servei-titol">${CONFIG.QUI_SOM_TIT}</div>
+        <div class="servei-desc">${CONFIG.QUI_DESC.slice(0,90)}...</div>
+        <a href="servicio.html?s=conocenos" class="servei-link">Leer más</a>
+    </div>
+    <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.FLOTA_IMG}'); background-size:cover; background-position:center;">
+        <div class="servei-titol">${CONFIG.FLOTA_TIT}</div>
+        <div class="servei-desc">${CONFIG.FLOTA_DESC.slice(0,90)}...</div>
+        <a href="servicio.html?s=flota" class="servei-link">Leer más</a>
+    </div>
+    <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.INSTAL_IMG}'); background-size:cover; background-position:center;">
+        <div class="servei-titol">${CONFIG.INSTAL_TIT}</div>
+        <div class="servei-desc">${CONFIG.INSTAL_DESC.slice(0,90)}...</div>
+        <a href="servicio.html?s=instalaciones" class="servei-link">Leer más</a>
+    </div>
+</div>
                 </section>
 
                 <div class="mini-hero" style="background-image:url('${CONFIG.ASSETS}${CONFIG.ASSEG_IMG}');">
