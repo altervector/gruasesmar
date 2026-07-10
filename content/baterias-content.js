@@ -6,7 +6,7 @@
    el contingut de dins (nom de classe i tag diferents).
    ============================================================ */
 
-class PesadosContent extends HTMLElement {
+class BateriasContent extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 
@@ -65,42 +65,29 @@ class PesadosContent extends HTMLElement {
 
 
             <section class="hero hero-servei">
-                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/servi/pesados/hero-pesados.jpg" alt="Pesados">
+                <img class="hero-imatge" src="${CONFIG.ASSETS}images/gruasesmar/servi/baterias/baterias-2.jpg" alt="Pesados">
                 <div class="hero-overlay"></div>
                 <div class="hero-contingut">
-                    <h1 class="hero-titol">ASISTENCIA EN CARRETERA PARA TODA CLASE DE VEHICULOS PESADOS</h1>
+                    <h1 class="hero-titol">CAMBIO DE BATERÍAS A DOMICILIO</h1>
                     <p class="hero-slogan">Cubrimos todo el Vallés Occidental, las 24 horas 365 días</p>
-                    <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla">${CONFIG.HERO_BOTO_PRI} ahora</a>
+                    <a href="tel:${CONFIG.TELEFON}" class="hero-boto-principal btn-balla">Contacta con nosotros</a>
                 </div>
             </section>
 
             <section class="seccio" id="detall-servei">
-                <h2 class="seccio-titol">Asistimos en carretera a toda clase de vehículos pesados</h2>
-                <p class="seccio-text">Disponemos de una renovada y diversa flota de vehículos equipados para poder atender todo tipo de incidencias.</p>
                 
-                <div class="checklist-grid">
-                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Turismos</span></div>
-                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Furgonetas</span></div>
-                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Caravanas</span></div>
-                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Motocicletas</span></div>
-                    <div class="checklist-item"><span class="checklist-check">✔</span><span>Autocaravanas</span></div>
-                </div>
 
                 <div class="galeria-turismos">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/pesados/pesados-1.jpg" alt="Traslado de turismo">
-                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/pesados/pesados-2.jpg" alt="Grúa asistiendo turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/baterias/baterias-1.jpg" alt="Traslado de turismo">
+                    <img src="${CONFIG.ASSETS}images/gruasesmar/servi/baterias/baterias-2.jpg" alt="Grúa asistiendo turismo">
                 </div>
 
-                <h2 class="seccio-titol" style="margin-top:40px;">Pasos básicos a seguir cuando esperamos asistencia en carretera</h2>
+                <h2 class="seccio-titol" style="margin-top:40px;">Cómo cambiar la batería del coche, moto o camión</h2>
                 <div class="seccio-text">
-                    <p>Uno de los <b>peores momentos</b> que nos pueden ocurrir en la carretera és <b>quedarnos tirados en cualquier vía</b> con circulación constante.</p>
-                    <p>Si contactas con nosotros, podremos asistir a tu vehículo y lo llevaremos al destino que nos indiques.</p>
-                    <p>Para que la asistencia funcione correctamente és importante facilitar toda la información posible sobre tu ubicación, qué avería ha ocurrido y qué tipo de vehículo tenemos que asistir.</p>
-                    <p>Mantente atento a la carretera para <b>poder trazar el punto en el que te encuentras</b> si tu vehículo no incluye localización por GPS.</p>
-                    <p>Utiliza el <b>servicio de GPS de tu propio teléfono móvil</b> para saber el punto exacto en el que estás parado.</p>
+                    <p>FALTA TEXTO</p>
                 </div>
             </section>
         `;
     }
 }
-customElements.define('pesados-content', PesadosContent);
+customElements.define('baterias-content', BateriasContent);
