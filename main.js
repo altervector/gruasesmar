@@ -40,11 +40,11 @@
                     <p class="seccio-text">Realizamos servicio en todo el Vallés Occidental y traslado de vehículos a toda Cataluña.</p>
                     <div class="serveis-grid">
                         ${CONFIG.ASSIST_CARRETERA.map(s => `
-                            <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">
+                            <a href="${s.url}" class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">
                                 <div class="servei-titol">${s.titol}</div>
                                 <div class="servei-desc">${s.desc}</div>
-                                <a href="${s.url}" class="servei-link">Leer más</a>
-                            </div>
+                                <span class="servei-link">Leer más</span>
+                            </a>
                         `).join('')}
                     </div>
 
@@ -52,38 +52,31 @@
                     <p class="seccio-text">Especialistas en reparación in situ, economizando tiempo, trabajo y riesgos.</p>
                     <div class="serveis-grid">
                         ${CONFIG.ALTRES_SERVEIS.map(s => `
-                            <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">
+                            <a href="${s.url}" class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">
                                 <div class="servei-titol">${s.titol}</div>
                                 <div class="servei-desc">${s.desc}</div>
-                                <a href="${s.url}" class="servei-link">Leer más</a>
-                            </div>
+                                <span class="servei-link">Leer más</span>
+                            </a>
                         `).join('')}
                     </div>
                 </section>
 
                 <hr class="separador">
 
-                <!-- CONEIX-NOS — 3 targetes que obren modal amb detall -->
+               
                 <section class="seccio" id="qui-som">
                     <p class="seccio-eyebrow">${CONFIG.QUI_SOM}</p>
                     <h2 class="seccio-titol">Conócenos</h2>
-<div class="serveis-grid">
-    <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.QUI_SOM_IMG}'); background-size:cover; background-position:center;">
-        <div class="servei-titol">${CONFIG.QUI_SOM_TIT}</div>
-        <div class="servei-desc">${CONFIG.QUI_DESC.slice(0,90)}...</div>
-        <a href="servicio.html?s=conocenos" class="servei-link">Leer más</a>
-    </div>
-    <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.FLOTA_IMG}'); background-size:cover; background-position:center;">
-        <div class="servei-titol">${CONFIG.FLOTA_TIT}</div>
-        <div class="servei-desc">${CONFIG.FLOTA_DESC.slice(0,90)}...</div>
-        <a href="servicio.html?s=flota" class="servei-link">Leer más</a>
-    </div>
-    <div class="servei-card" style="background-image:url('${CONFIG.ASSETS}${CONFIG.INSTAL_IMG}'); background-size:cover; background-position:center;">
-        <div class="servei-titol">${CONFIG.INSTAL_TIT}</div>
-        <div class="servei-desc">${CONFIG.INSTAL_DESC.slice(0,90)}...</div>
-        <a href="servicio.html?s=instalaciones" class="servei-link">Leer más</a>
-    </div>
-</div>
+                <div class="serveis-grid">
+
+                    ${CONFIG.CONOCENOS_CARDS.map(s => `
+                        <a href="${s.url}" class="servei-card" style="background-image:url('${CONFIG.ASSETS}${s.img}'); background-size:cover; background-position:center;">                                <div class="servei-titol">${s.titol}</div>
+                            <div class="servei-desc">${s.desc.slice(0,90)}</div>
+                            <span class="servei-link">Leer más</span>
+                        </a>
+                    `).join('')}
+
+                </div>
                 </section>
 
                 <div class="mini-hero" style="background-image:url('${CONFIG.ASSETS}${CONFIG.ASSEG_IMG}');">

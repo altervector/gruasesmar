@@ -35,6 +35,7 @@ const CONFIG = {
     QR:             "qr/qr-gruasesmar.png",                  // ← pendent generar
 
     // 4. NAVBAR
+    NAV_INI:        "Inicio",
     NAV_NOS:        "Nosotros",
     NAV_SER:        "Servicios",
     NAV_CON:        "Contacto",
@@ -58,9 +59,7 @@ const CONFIG = {
 
 
     // 6. SERVEIS — un sol bloc amb targetes (abans eren 6 pàgines separades)
-    // Turismos i Motos: contingut real de la web original.
-    // La resta: la web original tenia text de mostra (lorem ipsum) —
-    // pendent que la clienta doni el text definitiu.
+
     QUE_FEM:        "Lo que hacemos",
     QUE_FEM_SRV:    "Nuestros servicios",
 
@@ -75,6 +74,13 @@ const CONFIG = {
         { titol: "Servicio ITV", desc: "Con nuestro servicio de ITV a domicilio, te pasamos la ITV sin que salgas de casa.", url: "servicio.html?s=itv", img: "images/gruasesmar/servi/serviitv.jpg" },
     ],
     
+    CONOCENOS_CARDS: [
+        { titol: "Más de 30 años de experiencia en asistencia en carretera", desc: "Talleres Esmar, S.L. (Grúas Esmar) es una empresa especializada en asistencia en carretera con más de 30 años de experiencia en el sector. Toda nuestra flota está permanentemente comunicada con nuestra central de operaciones mediante GPS, para responder con rapidez a cualquier solicitud. Trabajamos también con aseguradoras, ofreciendo un servicio profesional adaptado a sus necesidades.", img: "images/gruasesmar/servi/conocenos/conocenos.png", url: "servicio.html?s=conocenos" },
+        { titol: "Nuestra flota", desc: "Disponemos de una flota de grúas equipadas con la última tecnología, todas ellas comunicadas por GPS con nuestra central para responder con rapidez. TEXT PENDENT — ampliar amb detalls reals de la flota (tipus de grues, quantitat...).", img: "images/gruasesmar/flota.jpg", url: "servicio.html?s=flota" },
+        { titol: "Nuestras instalaciones", desc: "Instalaciones de 800m² dotadas con la tecnología más avanzada en videovigilancia (CCTV), zona de taller para el mantenimiento de la flota, oficinas y sala de espera para clientes.", img: "images/gruasesmar/instalaciones.jpg", url: "servicio.html?s=instalaciones" },
+    ],
+
+
     ASSEG_TIT:      "Trabajamos con aseguradoras",
     ASSEG_DESC:     "Ofrecemos nuestros servicios para su compañía",
     ASSEG_BOTO:     "Contacta con nosotros",

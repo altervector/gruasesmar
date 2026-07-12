@@ -18,7 +18,7 @@ class NavComu extends HTMLElement {
                 </div>
                 <button class="navbar-hamburguesa">☰</button>
                 <ul class="navbar-menu">
-                    <li><a href="index.html#inici">Inicio</a></li>
+                    <li><a href="index.html#inici">${CONFIG.NAV_INI}</a></li>
                     <li><a href="index.html#qui-som">${CONFIG.NAV_NOS}</a></li>
                     <li><a href="index.html#serveis">${CONFIG.NAV_SER}</a></li>
                     <li><a href="index.html#contacte">${CONFIG.NAV_CON}</a></li>
