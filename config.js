@@ -7,6 +7,7 @@
 const CONFIG = {
 
     // 1. NEGOCI
+
     NOM:            "Grúas Esmar",
     LOGO:           "logo/logoEsmar.png",       // ← pendent: recuperar logo real
     LOGO_T:         "logo/logoGEtrans.png",  // ← pendent: recuperar logo real
@@ -21,6 +22,7 @@ const CONFIG = {
     EMAIL_SUPORT:   "suport@altervector.com",
 
     // 2. RUTES
+
     REPO_URL:       "https://altervector.github.io/gruasesmar/",
     BASE_URL:       "./",
     BASE_WORKER:    "",   // ← pendent: crear Worker per als 2 formularis
@@ -29,12 +31,14 @@ const CONFIG = {
     URL_MAPS:       "https://www.google.com/maps/search/?api=1&query=Talleres+Esmar+Terrassa",
     URL_RESSENYES:  "https://www.google.com/maps/search/?api=1&query=Talleres+Esmar+Terrassa",
 
-    // 3. IMATGES — pendents de baixar de la web original i pujar a avsets
+    // 3. IMATGES 
+
     BLOC_HERO:      "images/gruasesmar/hero-gruasesmar.jpg",
     FONS_SERVEIS:   "images/gruasesmar/servi/servi.jpg",
     QR:             "qr/qr-gruasesmar.png",                  // ← pendent generar
 
     // 4. NAVBAR
+    
     NAV_INI:        "Inicio",
     NAV_NOS:        "Nosotros",
     NAV_SER:        "Servicios",
@@ -43,23 +47,9 @@ const CONFIG = {
     HERO_BOTO_PRI:  "📞 Pedir grúa",
     HERO_BOTO_SEC:  "Nuestros servicios",
 
-    // 5. QUI SOM (fusió de Conócenos + Aseguradoras, que a l'original es repetien)
+    // 5. QUI SOM, SERVEIS
+
     QUI_SOM:        "Quiénes somos...",
-    QUI_SOM_TIT:    "Más de 30 años de experiencia en asistencia en carretera",
-    QUI_DESC:       "Talleres Esmar, S.L. (Grúas Esmar) es una empresa especializada en asistencia en carretera con más de 30 años de experiencia en el sector. Toda nuestra flota está permanentemente comunicada con nuestra central de operaciones mediante GPS, para responder con rapidez a cualquier solicitud. Trabajamos también con aseguradoras, ofreciendo un servicio profesional adaptado a sus necesidades.",
-    QUI_SOM_IMG:    "images/gruasesmar/servi/conocenos/conocenos.png",
-
-    FLOTA_TIT:      "Nuestra flota",
-    FLOTA_DESC:     "Disponemos de una flota de grúas equipadas con la última tecnología, todas ellas comunicadas por GPS con nuestra central para responder con rapidez. TEXT PENDENT — ampliar amb detalls reals de la flota (tipus de grues, quantitat...).",
-    FLOTA_IMG:      "images/gruasesmar/flota.jpg",
-    
-    INSTAL_TIT:     "Nuestras instalaciones",
-    INSTAL_DESC:    "Instalaciones de 800m² dotadas con la tecnología más avanzada en videovigilancia (CCTV), zona de taller para el mantenimiento de la flota, oficinas y sala de espera para clientes.",
-    INSTAL_IMG:     "images/gruasesmar/instalaciones.jpg",
-
-
-    // 6. SERVEIS — un sol bloc amb targetes (abans eren 6 pàgines separades)
-
     QUE_FEM:        "Lo que hacemos",
     QUE_FEM_SRV:    "Nuestros servicios",
 
