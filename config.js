@@ -35,7 +35,7 @@ const CONFIG = {
 
     BLOC_HERO:      "images/gruasesmar/hero-gruasesmar.jpg",
     FONS_SERVEIS:   "images/gruasesmar/servi/servi.jpg",
-    QR:             "qr/qr-gruasesmar.png",                  // ← pendent generar
+    QR:             "qr/qr-gruasesmar.png",
 
     // 4. NAVBAR
     

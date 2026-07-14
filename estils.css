@@ -347,7 +347,10 @@ a.servei-card {
 .footer-xarxes a { color: #bbb; font-size: 12px; }
 .footer-xarxes a:hover { color: var(--vermell); text-decoration: none; }
 .icona-app { width: 18px; height: auto; vertical-align: middle; margin-right: 6px; display: inline-block; }
-
+.footer-qr {
+    width: 55px;
+    margin: 20px auto 20px auto;
+}
 
 .footer-legal {
     background: rgba(255,255,255,0.06);
