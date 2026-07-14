@@ -65,7 +65,7 @@
 
                
                 <section class="seccio" id="qui-som">
-                    <p class="seccio-eyebrow">${CONFIG.QUI_SOM}</p>
+                    
                     <h2 class="seccio-titol">Conócenos</h2>
                 <div class="serveis-grid">
 
