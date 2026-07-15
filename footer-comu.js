@@ -80,6 +80,7 @@ class FooterComu extends HTMLElement {
                     <a href="${CONFIG.URL_MAPS}" target="_blank">${CONFIG.ADRECA}</a>
                 </p>
                 <div class="footer-legal">
+                    <a href="aviso-legal.html">Aviso Legal</a>
                     <a href="privacitat.html">Política de privacidad</a>
                     <a href="cookies.html">Uso de Cookies</a>
                 </div>
