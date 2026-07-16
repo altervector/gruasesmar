@@ -25,7 +25,7 @@ const CONFIG = {
 
     REPO_URL:       "https://altervector.github.io/gruasesmar/",
     BASE_URL:       "./",
-    BASE_WORKER:    "",   // ← pendent: crear Worker per als 2 formularis
+    BASE_WORKER:    "gruasesmar.altervector.workers.dev",   // ← pendent: crear Worker per als 2 formularis
     URL_OFICIAL:    "",
     ASSETS:         "https://avsets.pages.dev/",
     URL_MAPS:       "https://www.google.com/maps/search/?api=1&query=Talleres+Esmar+Terrassa",
