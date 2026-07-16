@@ -29,8 +29,14 @@ class FormContacte extends HTMLElement {
                     <span>He leído y acepto la <a href="privacitat.html" target="_blank">Política de Privacidad</a> *</span>
                 </label>
 
-                <button type="submit" class="hero-boto-principal" id="fc-boto">Enviar mensaje</button>
+                <div style="font-size:11px; color:var(--gris); background:var(--gris-clar); padding:10px 12px; border-radius:var(--radi); border-left:3px solid var(--vermell);">
+                    <strong>Responsable:</strong> ${CONFIG.NOM} ·
+                    <strong>Finalidad:</strong> responder tu consulta ·
+                    <strong>Derechos:</strong> acceso, rectificación y supresión escribiendo a
+                    <a href="mailto:${CONFIG.EMAIL}">${CONFIG.EMAIL}</a>
+                </div>
 
+                <button type="submit" class="hero-boto-principal" id="fc-boto">Enviar mensaje</button>
                 <p id="fc-estat" style="font-size:13px; min-height:18px;"></p>
             </form>
         `;
