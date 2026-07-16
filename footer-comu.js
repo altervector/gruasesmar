@@ -57,8 +57,10 @@ class FooterComu extends HTMLElement {
                         </div>
                     </div>
                 </div>
+                <div class="botons-contacte">
                 <a href="${CONFIG.WHATSAPP}" target="_blank" class="boto-whatsapp btn-balla">${CONFIG.WHATSAPPLBL}</a>
-                <a href="form-contacte.html" class="boto-whatsapp btn-balla">Contacta con nosotros</a>
+                <a href="form-contacte.html" class="boto-whatsapp btn-balla">Formulario de Contacto</a>
+                </div>
             </section>
 
             <footer class="footer">
