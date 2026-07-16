@@ -59,9 +59,9 @@ const CONFIG = {
         { titol: "Vehículos pesados", desc: "Cuando tienes un problema con tu furgoneta o camión ligero, lo único que quieres es resolverlo lo antes posible.", url: "servicio.html?s=pesados", img: "images/gruasesmar/servi/pesados/hero-pesados.jpg" },
     ],
     ALTRES_SERVEIS: [
-        { titol: "Cambios de baterías a domicilio", desc: "Cambio de batería a domicilio o estés donde estés. No te supondrá ningún inconveniente.", url: "servicio.html?s=baterias", img: "images/gruasesmar/servi/servibaterias.png" },
-        { titol: "Reparación de neumáticos in situ", desc: "Reparación temporal de pinchazos para que puedas seguir con tu camino.", url: "servicio.html?s=pneumaticos", img: "images/gruasesmar/servi/servipneumaticos.jpg" },
-        { titol: "Servicio ITV", desc: "Con nuestro servicio de ITV a domicilio, te pasamos la ITV sin que salgas de casa.", url: "servicio.html?s=itv", img: "images/gruasesmar/servi/serviitv.jpg" },
+        { titol: "Cambios de baterías a domicilio", desc: "Cambio de batería a domicilio o estés donde estés. No te supondrá ningún inconveniente.", url: "servicio.html?s=baterias", img: "images/gruasesmar/servi/baterias/baterias-1.png" },
+        { titol: "Reparación de neumáticos in situ", desc: "Reparación temporal de pinchazos para que puedas seguir con tu camino.", url: "servicio.html?s=pneumaticos", img: "images/gruasesmar/servi/pneumaticos/pneumaticos-1.jpg" },
+        { titol: "Servicio ITV", desc: "Con nuestro servicio de ITV a domicilio, te pasamos la ITV sin que salgas de casa.", url: "servicio.html?s=itv", img: "images/gruasesmar/servi/itv/hero-itv.jpg" },
     ],
     
     CONOCENOS_CARDS: [
