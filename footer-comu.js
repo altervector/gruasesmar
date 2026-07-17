@@ -89,6 +89,8 @@ class FooterComu extends HTMLElement {
                 </div>
                 <p class="footer-poweredby">
                     Powered by <a href="https://www.altervector.com" target="_blank">AlterVector</a>
+                     <!-- #visites s'omple via Worker (BLOC 6) -->
+                        <span id="visites"></span>
                 </p>
             </footer>
         `;

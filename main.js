@@ -91,6 +91,16 @@
             `;
         }
 
+                fetch(`${CONFIG.BASE_WORKER}/visites`)
+                .then(r => r.json())       // converteix resposta a objecte JS
+                .then(data => {
+                const el = document.getElementById('visites');
+                if (el && data.visites) {
+                    el.textContent = `${data.visites} visites`;
+                }
+                })
+                .catch(() => {}); // Si el Worker no respon → no passa res, el span queda buit
+
     }; // fi inicialitzar
 
     if (document.readyState === "complete" || document.readyState === "interactive") {
