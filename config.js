@@ -7,7 +7,7 @@
 const CONFIG = {
 
     // 1. NEGOCI
-
+    COOK:           "cookies_esmar",
     NOM:            "Grúas Esmar",
     LOGO:           "logo/logoEsmar.png",       // ← pendent: recuperar logo real
     LOGO_T:         "logo/logoGEtrans.png",  // ← pendent: recuperar logo real
