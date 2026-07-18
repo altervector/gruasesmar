@@ -14,7 +14,7 @@ const CONFIG = {
     SLOGAN:         "Asistencia en carretera 24h en el Vallés Occidental",
     TELEFON:        "93 780 06 81",                 TELEFONLBL: "Teléfono", TL: "📞",
     MOBIL:          "639 758 989",
-    WHATSAPP:       "https://wa.me/34639758989",    WHATSAPPLBL: "💬 Escríbenos por WhatsApp",
+    WHATSAPP:       "https://wa.me/34699642213",    WHATSAPPLBL: "💬 Escríbenos por WhatsApp",
     EMAIL:          "info@gruasesmar.com",          EMAILLBL: "e-Mail",   EM: "✉️",
     ADRECA:         "Carrer de Colom, 453, Nave D51, 08223 Terrassa, Barcelona",   ADRECALBL: "Dirección", AD: "📍",
     INSTAGRAM:      "https://www.instagram.com/gruas_esmar",
