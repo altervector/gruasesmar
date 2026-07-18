@@ -86,5 +86,5 @@ const CONFIG = {
     HORA_1:         "Asistencia 24 horas, los 365 días del año",
 
     // 6. SEGURETAT
-    SITIOS_SEGUROS: ["altervector.com", "pages.dev", "altervector.github.io", "localhost", "127.0.0.1"],
+    SITIOS_SEGUROS: ["altervector.com", "pages.dev", "altervector.github.io","gruasesmar.com", "localhost", "127.0.0.1"],
 };
