@@ -19,7 +19,7 @@ const CONFIG = {
     ADRECA:         "Carrer de Colom, 453, Nave D51, 08223 Terrassa, Barcelona",   ADRECALBL: "Dirección", AD: "📍",
     INSTAGRAM:      "https://www.instagram.com/gruas_esmar",
     FACEBOOK:       "",
-    EMAIL_SUPORT:   "suport@altervector.com",
+    EMAIL_SUPORT:   "info@alterwebstudio.com",
 
     // 2. RUTES
 
