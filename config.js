@@ -12,11 +12,11 @@ const CONFIG = {
     LOGO:           "logo/logoEsmar.png",       // ← pendent: recuperar logo real
     LOGO_T:         "logo/logoGEtrans.png",  // ← pendent: recuperar logo real
     SLOGAN:         "Asistencia en carretera 24h en el Vallés Occidental",
-    TELEFON:        "93 780 06 81",                 TELEFONLABEL: "Teléfono", TL: "📞",
+    TELEFON:        "93 780 06 81",                 TELEFON_LABEL: "Teléfono", TELEFON_ICO: "📞",
     MOBIL:          "639 758 989",
     WHATSAPP:       "https://wa.me/34699642213",    WHATSAPPLABEL: "💬 Escríbenos por WhatsApp",
-    EMAIL:          "info@gruasesmar.com",          EMAILLABEL: "e-Mail",   EM: "✉️",
-    ADRECA:         "Carrer de Colom, 453, Nave D51, 08223 Terrassa, Barcelona",   ADRECALABEL: "Dirección", AD: "📍",
+    EMAIL:          "info@gruasesmar.com",          EMAIL_LABEL: "e-Mail",   EMAIL_ICO: "✉️",
+    ADRECA:         "Carrer de Colom, 453, Nave D51, 08223 Terrassa, Barcelona",   ADRECA_LABEL: "Dirección", ADRECA_ICO: "📍",
     INSTAGRAM:      "https://www.instagram.com/gruas_esmar",
     FACEBOOK:       "",
     EMAIL_SUPORT:   "info@alterwebstudio.com",
@@ -50,7 +50,7 @@ const CONFIG = {
     // 5. QUI SOM, SERVEIS
 
     QUI_SOM:        "Quiénes somos...",
-    QUE_FEM:        "Lo que hacemos",
+    QUE_FEMAIL_ICO:        "Lo que hacemos",
     QUE_FEM_SRV:    "Nuestros servicios",
 
     ASSIST_CARRETERA: [
