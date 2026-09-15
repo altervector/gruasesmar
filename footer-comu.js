@@ -26,14 +26,14 @@ class FooterComu extends HTMLElement {
                 <h2 class="seccio-titol">${CONFIG.ON_SOM_TIT}</h2>
                 <div class="contacte-grid">
                     <div class="contacte-item">
-                        <div class="contacte-ico">${CONFIG.AD}</div>
+                        <div class="contacte-ico">${CONFIG.ARECA_ICO}</div>
                         <div>
                             <div class="contacte-label">${CONFIG.ADRECA_LABEL}</div>
                             <div class="contacte-valor"><a href="${CONFIG.URL_MAPS}" target="_blank">${CONFIG.ADRECA}</a></div>
                         </div>
                     </div>
                     <div class="contacte-item">
-                        <div class="contacte-ico">${CONFIG.TL}</div>
+                        <div class="contacte-ico">${CONFIG.TELEFON_ICO}</div>
                         <div>
                             <div class="contacte-label">${CONFIG.TELEFON_LABEL}</div>
                             <div class="contacte-valor">
@@ -43,7 +43,7 @@ class FooterComu extends HTMLElement {
                         </div>
                     </div>
                     <div class="contacte-item">
-                        <div class="contacte-ico">${CONFIG.EM}</div>
+                        <div class="contacte-ico">${CONFIG.EMAIL_ICO}</div>
                         <div>
                             <div class="contacte-label">${CONFIG.EMAIL_LABEL}</div>
                             <div class="contacte-valor"><a href="mailto:${CONFIG.EMAIL}">${CONFIG.EMAIL}</a></div>
