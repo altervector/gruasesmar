@@ -50,7 +50,7 @@ const CONFIG = {
     // 5. QUI SOM, SERVEIS
 
     QUI_SOM:        "Quiénes somos...",
-    QUE_FEMAIL_ICO:        "Lo que hacemos",
+    QUE_FEM:        "Lo que hacemos",
     QUE_FEM_SRV:    "Nuestros servicios",
 
     ASSIST_CARRETERA: [
