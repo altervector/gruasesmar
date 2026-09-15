@@ -28,14 +28,14 @@ class FooterComu extends HTMLElement {
                     <div class="contacte-item">
                         <div class="contacte-ico">${CONFIG.AD}</div>
                         <div>
-                            <div class="contacte-label">${CONFIG.ADRECALBL}</div>
+                            <div class="contacte-label">${CONFIG.ADRECALABEL}</div>
                             <div class="contacte-valor"><a href="${CONFIG.URL_MAPS}" target="_blank">${CONFIG.ADRECA}</a></div>
                         </div>
                     </div>
                     <div class="contacte-item">
                         <div class="contacte-ico">${CONFIG.TL}</div>
                         <div>
-                            <div class="contacte-label">${CONFIG.TELEFONLBL}</div>
+                            <div class="contacte-label">${CONFIG.TELEFONLABEL}</div>
                             <div class="contacte-valor">
                                 <a href="tel:${CONFIG.TELEFON}">${CONFIG.TELEFON}</a><br>
                                 <a href="tel:${CONFIG.MOBIL}">${CONFIG.MOBIL}</a>
@@ -45,7 +45,7 @@ class FooterComu extends HTMLElement {
                     <div class="contacte-item">
                         <div class="contacte-ico">${CONFIG.EM}</div>
                         <div>
-                            <div class="contacte-label">${CONFIG.EMAILLBL}</div>
+                            <div class="contacte-label">${CONFIG.EMAILLABEL}</div>
                             <div class="contacte-valor"><a href="mailto:${CONFIG.EMAIL}">${CONFIG.EMAIL}</a></div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ class FooterComu extends HTMLElement {
                     </div>
                 </div>
                 <div class="botons-contacte">
-                <a href="${CONFIG.WHATSAPP}" target="_blank" class="boto-whatsapp btn-balla">${CONFIG.WHATSAPPLBL}</a>
+                <a href="${CONFIG.WHATSAPP}" target="_blank" class="boto-whatsapp btn-balla">${CONFIG.WHATSAPPLABEL}</a>
                 <a href="form-contacte.html" class="boto-whatsapp">Formulario de Contacto</a>
                 </div>
             </section>
