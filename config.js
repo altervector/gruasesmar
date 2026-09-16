@@ -39,10 +39,10 @@ const CONFIG = {
 
     // 4. NAVBAR
     
-    NAV_INI:        "Inicio",
-    NAV_NOS:        "Nosotros",
-    NAV_SER:        "Servicios",
-    NAV_CON:        "Contacto",
+    NAV_INICI:        "Inicio",
+    NAV_NOSALTRES:        "Nosotros",
+    NAV_SERVEIS:        "Servicios",
+    NAV_CONTACTE:        "Contacto",
 
     HERO_BOTO_PRI:  "📞 Pedir grúa",
     HERO_BOTO_SEC:  "Nuestros servicios",
