@@ -2,39 +2,103 @@
 <html lang="es">
 
 <head>
+    <!-- ═══ 1. BÀSIC ═══════════════════════════════════════════════ -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Grúas Esmar | Asistencia en Carretera Terrassa</title>
     <meta name="description" content="Grúas Esmar — Asistencia en carretera 24h en el Vallés Occidental. Turismos, motos, vehículos pesados.">
-    <meta name="robots" content="index, follow">
+    <meta name="author" content="Grúas Esmar">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://www.gruasesmar.com/">
+    <!-- <link rel="alternate" hreflang="es" href="https://www.gruasesmar.com/"> -->
 
+    <!-- ═══ 2. ICONES I PWA ════════════════════════════════════════ -->
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="https://avsets.pages.dev/logo/logoGEtrans.png">
     <link rel="apple-touch-icon" href="https://avsets.pages.dev/logo/logoGEtrans.png">
+    <!-- <meta name="theme-color" content=""> -->
 
-    <meta name="google-site-verification" content="WUUxnyfsv2z3-KnZOQo6OlR3cWeUPmkrBb6s-Kvzi4s" />
+    <!-- ═══ 3. APPLE (iPhone/iPad) ═════════════════════════════════ -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Grúas Esmar">
+    <meta name="format-detection" content="telephone=yes">
 
+    <!-- ═══ 4. RENDIMENT (CDN d'imatges) ═══════════════════════════ -->
+    <link rel="preconnect" href="https://avsets.pages.dev" crossorigin>
+    <link rel="dns-prefetch" href="https://avsets.pages.dev">
+
+    <!-- ═══ 5. SEO LOCAL ═══════════════════════════════════════════ -->
+    <meta name="geo.region" content="ES-CT">
+    <meta name="geo.placename" content="Terrassa">
+    <!-- <meta name="geo.position" content="LAT;LON"> -->
+    <!-- <meta name="ICBM" content="LAT, LON"> -->
+
+    <!-- ═══ 6. VERIFICACIÓ ═════════════════════════════════════════ -->
+    <meta name="google-site-verification" content="WUUxnyfsv2z3-KnZOQo6OlR3cWeUPmkrBb6s-Kvzi4s">
+
+    <!-- ═══ 7. OPEN GRAPH (WhatsApp, Facebook...) ══════════════════ -->
     <meta property="og:title" content="Grúas Esmar | Asistencia en Carretera">
     <meta property="og:description" content="Asistencia en carretera 24h. Turismos, motos, vehículos pesados.">
     <meta property="og:image" content="https://avsets.pages.dev/logo/logoGEtrans.png">
+    <!-- <meta property="og:image:width" content=""> -->
+    <!-- <meta property="og:image:height" content=""> -->
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="Logo de Grúas Esmar">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.gruasesmar.com/">
     <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="Grúas Esmar">
 
+    <!-- ═══ 8. TWITTER / X ═════════════════════════════════════════ -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Grúas Esmar | Asistencia en Carretera">
     <meta name="twitter:description" content="Asistencia en carretera 24h. Turismos, motos, vehículos pesados.">
     <meta name="twitter:image" content="https://avsets.pages.dev/logo/logoGEtrans.png">
+    <meta name="twitter:image:alt" content="Logo de Grúas Esmar">
 
+    <!-- ═══ 9. DADES ESTRUCTURADES (JSON-LD) ═══════════════════════ -->
+    <!-- Pendent: telephone, email, address (carrer i CP), geo, hasMap, sameAs, aggregateRating -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["AutomotiveBusiness", "LocalBusiness"],
+          "@id": "https://www.gruasesmar.com/#business",
+          "name": "Grúas Esmar",
+          "description": "Asistencia en carretera 24h. Turismos, motos y vehículos pesados.",
+          "image": "https://avsets.pages.dev/logo/logoGEtrans.png",
+          "logo": "https://avsets.pages.dev/logo/logoGEtrans.png",
+          "priceRange": "€€",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Terrassa",
+            "addressRegion": "Barcelona",
+            "addressCountry": "ES"
+          },
+          "url": "https://www.gruasesmar.com",
+          "openingHours": "Mo-Su 00:00-23:59",
+          "areaServed": ["Terrassa", "Vallès Occidental"]
+        },
+        {
+          "@type": "WebSite",
+          "name": "Grúas Esmar",
+          "url": "https://www.gruasesmar.com/",
+          "inLanguage": "es",
+          "publisher": { "@id": "https://www.gruasesmar.com/#business" }
+        }
+      ]
+    }
+    </script>
+
+    <!-- ═══ 10. VEL + SCRIPTS ══════════════════════════════════════ -->
     <style>
         body { opacity: 0; transition: opacity 0.5s ease-in; }
     </style>
 
-    <script src="config.js?v=3.0"></script>
     <script>
-        window.MODULS = ["cookies-banner.js","nav-comu.js", "main.js","footer-comu.js"];
+        window.MODULS = ["cookies-banner.js", "nav-comu.js", "main.js", "footer-comu.js"];
     </script>
     <script src="loader.js"></script>
 </head>
