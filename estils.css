@@ -342,7 +342,7 @@ a.servei-card {
 .separador { border: none; border-top: 1px solid rgba(0,0,0,0.07); margin: 0; }
 
 .footer {
-    background: var(--gris-fosc); color: #bbb; padding: 40px 24px 24px;
+    background: var(--blau-franja); color: #bbb; padding: 40px 24px 24px;
     font-size: 13px; line-height: 1.8; text-align: center;
 }
 .footer-nom { font-size: 1.2rem; color: var(--blanc); margin-bottom: 6px; }
